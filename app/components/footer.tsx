@@ -3,7 +3,7 @@ export default function footer(){
     return(
         <footer
         className="bg-cover bg-center py-12 flex w-100% h-[70vh]"
-        style={{ backgroundImage: "url('/footer.jpeg')" }}
+        style={{ backgroundImage: "url('/Untitled design.png')" }}
       >
         <div className="absolute inset-0 bg-gray-800 bg-opacity-30"></div>
 
