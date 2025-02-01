@@ -5,7 +5,7 @@ export default function footer(){
         className="bg-cover bg-center py-12 flex w-100% h-[70vh]"
         style={{ backgroundImage: "url('/Untitled design.png')" }}
       >
-        <div className="absolute inset-0 bg-gray-800 bg-opacity-30"></div>
+       
 
         <div className="container  text-center text-white mt-10">
           <h2 className="text-3xl font-bold mb-4">Stay Connected</h2>
