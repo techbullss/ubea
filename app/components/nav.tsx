@@ -1,12 +1,29 @@
+"use client";
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { nav_links } from '../constant/constant'
 import Link from 'next/link'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
 const nav = () => {
+  const [navBgs,setnavBg]=useState(false);
+  useEffect(()=>{
+    const hadler= ()=>{
+      if(window.scrollY>=90)setnavBg(true);
+      if(window.scrollY<90)setnavBg(false);
+    };
+  window.addEventListener('scroll',hadler);
+return ()=>{
+  window.removeEventListener('scroll',hadler)
+}
+
+},[]);
+  
+
+  
   return (
-    <div className='w-full bg-slate-950   transition-all z-[100] h-[12vh]'>
+    <div 
+    className={`fixed ${navBgs ? 'bg-black  shadow-md h-[18vh] pt-5 ' : 'fixed'} w-full bg-slate-950 mx-auto transition-all z-[1000] h-[16vh]`}>
     <div className='flex w-[90%] mx-auto    justify-between'>
       <div className='items-center'>
         <Image className='w-16' src={'/WhatsApp Image 2025-01-27 at 10.52.39.jpeg' } alt={'log image'} width={64} height={64}/>
@@ -17,15 +34,16 @@ const nav = () => {
                     <Link href={Links.url} key={Links.id}> <p>{Links.label}
                         </p>   </Link>     );
             })}
-
-        </div>
-        <div className='text-white items-center gap-5 flex'>
+            <div className='text-white items-center gap-5 flex'>
           <p className='text-sm items-center'>call Us <span>0712xxxxxx</span></p>
           <p className='text-sm items-center'>Email <span>info@ubea.co.ke</span></p>
         </div>
+
+        </div>
+        
         <div className='flex items-center gap-3'>
           <button className='bg-white rounded-full md:px-8 md:py-2.5'>login</button>
-          <HiBars3BottomRight className=' w-8 cursor-pointer text-white h-8' />
+          <HiBars3BottomRight className=' w-8 cursor-pointer text-white h-8 lg:hidden ' />
         </div>
     </div>
     </div>

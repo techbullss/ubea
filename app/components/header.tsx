@@ -4,7 +4,7 @@ import Mobilenav from './Mobilenav'
 
 const header = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black h-[22hv]'>
         <Nav />
         <Mobilenav />
       </div>  
