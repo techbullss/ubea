@@ -1,4 +1,5 @@
-"use client";
+
+"use client"
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { nav_links } from '../constant/constant'
@@ -7,7 +8,7 @@ import { HiBars3BottomRight } from 'react-icons/hi2'
 import { FaPhone } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
-const nav = () => {
+const Nav = () => {
   const [navBgs,setnavBg]=useState(false);
   useEffect(()=>{
     const hadler= ()=>{
@@ -56,4 +57,4 @@ return ()=>{
   )
 }
 
-export default nav
+export default Nav

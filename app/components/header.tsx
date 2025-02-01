@@ -1,6 +1,7 @@
 import React from 'react'
-import Nav from './nav'
+
 import Mobilenav from './Mobilenav'
+import Nav from './Nav'
 
 const header = () => {
   return (
