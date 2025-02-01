@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import { nav_links } from '../constant/constant'
 import Link from 'next/link'
 import { HiBars3BottomRight } from 'react-icons/hi2'
+import { FaPhone } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 const nav = () => {
   const [navBgs,setnavBg]=useState(false);
@@ -28,15 +30,19 @@ return ()=>{
       <div className='items-center'>
         <Image className='w-16' src={'/WhatsApp Image 2025-01-27 at 10.52.39.jpeg' } alt={'log image'} width={64} height={64}/>
         </div>
-        <div className='hidden lg:flex space-x-15 text-white items-center gap-10'>
+        <div className='hidden lg:flex space-x-15text-sm text-gray-100 items-center gap-10'>
             {nav_links.map((Links)=>{
                 return(
                     <Link href={Links.url} key={Links.id}> <p>{Links.label}
                         </p>   </Link>     );
             })}
             <div className='text-white items-center gap-5 flex'>
-          <p className='text-sm items-center'>call Us <span>0712xxxxxx</span></p>
-          <p className='text-sm items-center'>Email <span>info@ubea.co.ke</span></p>
+            <p className="text-sm flex items-center gap-2">
+  <FaPhone className="text-green-500" /> <span>0712xxxxxx</span>
+</p>
+<p className="text-sm flex items-center gap-2">
+  <MdEmail className="text-blue-500" /> <span>info@ubea.co.ke</span>
+</p>
         </div>
 
         </div>
