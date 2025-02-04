@@ -1,7 +1,9 @@
 
+import BoardSection from "./components/BoardSection";
 import Homepagepricing from "./components/Homepagepricing";
 import HomepageSc2 from "./components/homepageSc2";
 import HomepageSec1 from "./components/homepageSec1";
+import Testimonials from "./components/Testimonials";
 
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <HomepageSec1 />
       <HomepageSc2 />
       <Homepagepricing />
+      <BoardSection />
+      <Testimonials />
       </div>
 
     
