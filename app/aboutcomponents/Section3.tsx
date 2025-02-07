@@ -9,26 +9,26 @@ const Section3 = () => {
             <div><h1 className='text-2xl text-center'>Check out to see how we work and what we achieve.<br></br> A picture speaks a thousand words!</h1></div>
             </div>
             <div className='grid grid-cols-3 w-full gap-2'>
-                <div className='h-[80vh] bg-cover border-8 border-black shadow-md rounded-md bg-black'
+                <div className='h-[80vh] bg-cover border-8 transition duration-300 transform hover:scale-105 hover:bg-gray-700 border-black shadow-md rounded-md bg-black'
                 style={{ backgroundImage: "url('/conect.png')" }}>
                     
                 </div>
-                <div className='h-[80vh] mt-20 border-8 border-black bg-cover shadow-md rounded-md bg-black'
+                <div className='h-[80vh] mt-20 border-8 transition duration-300 transform hover:scale-105 hover:bg-gray-700 border-black bg-cover shadow-md rounded-md bg-black'
                 style={{ backgroundImage: "url('careers.jpg')" }} >
 
                 </div>
-                <div className='h-[80vh] bg-cover border-8 border-black shadow-md rounded-md bg-black' style={{ backgroundImage: "url('/moving1.jpg')" }}></div>
+                <div className='h-[80vh] bg-cover border-8 transition duration-300 transform hover:scale-105 hover:bg-gray-700 border-black shadow-md rounded-md bg-black' style={{ backgroundImage: "url('/moving1.jpg')" }}></div>
             </div>
             <div className='grid grid-cols-3 w-full gap-2 pt-12'>
                 <div className='h-[80vh] bg-cover  border-8 border-black shadow-md rounded-md bg-black'
                 style={{ backgroundImage: "url('/conct.jpg')" }}>
                     
                 </div>
-                <div className='h-[80vh] mt-20 border-8 border-black bg-cover shadow-md rounded-md bg-black'
+                <div className='h-[80vh] mt-20 border-8 transition duration-300 transform hover:scale-105 hover:bg-gray-700 border-black bg-cover shadow-md rounded-md bg-black'
                 style={{ backgroundImage: "url('career2.gif')" }} >
 
                 </div>
-                <div className='h-[80vh] bg-cover  border-8 border-black shadow-md rounded-md bg-black' style={{ backgroundImage: "url('/moving.jpg')" }}></div>
+                <div className='h-[80vh] bg-cover  border-8transition duration-300 transform hover:scale-105 hover:bg-gray-700 border-black shadow-md rounded-md bg-black' style={{ backgroundImage: "url('/moving.jpg')" }}></div>
             </div>
             <div className='grid grid-cols-3 w-full gap-2'>
                 <div className=''>

@@ -21,9 +21,9 @@ const Homepagepricing = () => {
       </p>
       <div className='flex flex-col w-[90%] mx-auto'>
         <div className=' grid lg:grid-cols-4 gap-4 mt-8'>
-          <div className="  border-2 bg-slate-50 rouded-lg shadow-lg h-fit">
+          <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 border-2 bg-slate-50 rouded-lg shadow-lg h-fit">
             <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>Individual Memberships </h1>
-            <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>449</span>/anual</p>
+            <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>449</span>/annual</p>
             <div className='mt-10 '>
             <div className='text-center flex  items-center  space-x-3 ' >
                 <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
@@ -128,7 +128,7 @@ const Homepagepricing = () => {
 
             </div>
             </div>
-            <div className="  h-fit border-2 bg-slate-50 rouded-lg shadow-lg">
+            <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 h-fit border-2 bg-slate-50 rouded-lg shadow-lg">
             <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>Educational Organizations </h1>
             <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>1,249</span>/anual</p>
             <div className='mt-10 '>
@@ -227,7 +227,7 @@ const Homepagepricing = () => {
 
             </div>
             </div>
-            <div className=" h-fit border-2 bg-slate-50 rouded-lg shadow-lg">
+            <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 h-fit border-2 bg-slate-50 rouded-lg shadow-lg">
             <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>J-1 Sponsors  </h1>
             <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>1,249</span>/anual</p>
             <div className='mt-10 '>
@@ -334,7 +334,7 @@ const Homepagepricing = () => {
 
             </div>
             </div>
-            <div className="  border-2 bg-slate-50 rouded-lg shadow-lg h-fit">
+            <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 border-2 bg-slate-50 rouded-lg shadow-lg h-fit">
             <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>Corporate/Business
             Members </h1>
             <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>1,599</span>/anual</p>

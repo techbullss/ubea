@@ -1,3 +1,5 @@
+import Pricing from "../aboutcomponents/Pricing";
+
 export default function Services() {
     const services = [
       "Job Boards",
@@ -32,6 +34,7 @@ export default function Services() {
             ))}
           </div>
         </div>
+        <Pricing />
       </div>
     );
   }
