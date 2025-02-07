@@ -6,6 +6,7 @@ import HomepageSec1 from "./components/homepageSec1";
 import Testimonials from "./components/Testimonials";
 
 
+
 export default function Home() {
   return(
     
@@ -15,6 +16,7 @@ export default function Home() {
       <Homepagepricing />
       <BoardSection />
       <Testimonials />
+      
       </div>
 
     

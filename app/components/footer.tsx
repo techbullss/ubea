@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import WhatsAppButton from './WhatsAppButton';
 
 export default function footer(){
     return(
@@ -109,7 +110,7 @@ export default function footer(){
       </div>
     </div>
 
-        
+    <WhatsAppButton />
       </footer>
 
     )
