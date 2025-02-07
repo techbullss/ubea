@@ -32,18 +32,21 @@ const Section3 = () => {
             </div>
             <div className='grid grid-cols-3 w-full gap-2'>
                 <div className=''>
-                <p className='text-4xl text-sky-400 text-center'>Connecting teachers</p>
+                <p className="text-4xl font-bold text-transparent bg-gradient-to-r from-sky-400 to-pink-500 bg-clip-text text-center">Connecting teachers</p>
                     
                 </div>
                 <div className=' '
                  >
-                <p className='text-4xl text-sky-400 pt-8 text-center'>Developing Careers</p>
+                <p  className="text-4xl pt-8 font-bold text-transparent bg-gradient-to-r from-sky-400 to-pink-500 bg-clip-text text-center">Developing Careers</p>
 
 
                 </div>
                 <div className='' 
                 >
-                <p className='text-4xl text-sky-400 text-center'>Relocation and Orientation</p>
+                <p className="text-4xl font-bold text-transparent bg-gradient-to-r from-sky-400 to-pink-500 bg-clip-text text-center">
+  Relocation and Orientation
+</p>
+
 
                 </div>
             </div>
