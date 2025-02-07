@@ -11,7 +11,7 @@ export const nav_links =[
 },
 {
     id:3,
-    url:"/Services",
+    url:"/services",
     label:"Services"
 },
 {
