@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 export default function footer(){
     return(
       <footer
-      className=" bg-center py-12 flex w-full  sm:h-[50vh] md:h-screen lg:h-screen  sm:flex-col"
+      className="  bg-center h-screen flex w-full flex-col bg-cover  mx-auto sm:h-[50vh] md:h-screen  "
       style={{ backgroundImage: "url('/Untitled design.png')" }}
     >
        <div className='grid grid-cols-2 gap-24'>
@@ -84,7 +84,7 @@ export default function footer(){
       </div>
     </div>
        </div>
-       <div className="bg-gray-950 text-white py-6 mt-12">
+       <div className="bg-gray-950 text-white py-6  w-full">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Copyright */}
         <p className="text-sm">

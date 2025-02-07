@@ -1,17 +1,22 @@
 export const nav_links =[
     {
     id:1,
-    url:"#",
+    url:"/",
     label:"Home"
 },
 {
     id:2,
-    url:"#",
+    url:"/aboutUS",
     label:"AboutUs"
 },
 {
     id:3,
-    url:"#",
+    url:"/Services",
+    label:"Services"
+},
+{
+    id:4,
+    url:"/ContactuS",
     label:"ContactuS"
 }
 
