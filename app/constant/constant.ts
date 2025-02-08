@@ -7,7 +7,7 @@ export const nav_links =[
 {
     id:2,
     url:"/aboutUS",
-    label:"AboutUs"
+    label:"About Us"
 },
 {
     id:3,
@@ -17,7 +17,7 @@ export const nav_links =[
 {
     id:4,
     url:"/ContactuS",
-    label:"ContactuS"
+    label:"Contact Us"
 }
 
 ]
