@@ -28,7 +28,7 @@ export default function Pricing() {
         ],
       },
       {
-        type: "Educational Organizations",
+        type: "Individual Memberships",
         price: "$1,599/Annual",
         benefits: [
           "Access to Members",
