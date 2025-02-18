@@ -1,7 +1,8 @@
 
+import Section1 from "./aboutcomponents/section1";
 import BoardSection from "./components/BoardSection";
 import Homepagepricing from "./components/Homepagepricing";
-import HomepageSc2 from "./components/homepageSc2";
+
 import HomepageSec1 from "./components/homepageSec1";
 import Testimonials from "./components/Testimonials";
 
@@ -12,7 +13,7 @@ export default function Home() {
     
       <div>
       <HomepageSec1 />
-      <HomepageSc2 />
+      <Section1 />
       <Homepagepricing />
       <BoardSection />
       <Testimonials />

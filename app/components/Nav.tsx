@@ -26,7 +26,7 @@ return ()=>{
   
   return (
     <div 
-    className={`fixed ${navBgs ? 'bg-black  shadow-md h-[18vh] pt-5 ' : 'fixed'} w-full bg-slate-950 mx-auto transition-all z-[1000] h-[16vh]`}>
+    className={`fixed ${navBgs ? 'bg-black  shadow-md h-[18vh] pt-2 ' : 'fixed'} w-full bg-slate-950 mx-auto transition-all z-[1000] h-[12vh] pt-2`}>
     <div className='flex w-[90%] mx-auto    justify-between'>
       <div className='items-center'>
         <Image className='w-16' src={'/WhatsApp Image 2025-01-27 at 10.52.39.jpeg' } alt={'log image'} width={64} height={64}/>

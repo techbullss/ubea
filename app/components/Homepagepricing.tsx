@@ -1,459 +1,91 @@
 import React from 'react'
-import { FaCheck } from 'react-icons/fa'
-import {  MdClose } from 'react-icons/md'
 
 const Homepagepricing = () => {
-  const additionalServices = [
-    { service: "Foreign Credential Evaluation and Transcript Verification", price: "$200" },
-    { service: "U.S. Licensure Guidance and Registration", price: "$200" },
-    { service: "Resume Preparation and Review", price: "$50" },
-    { service: "Interview Skills Workshops/Seminars", price: "$50 per session" },
-    { service: "Airport Transportation", price: "Fees vary" },
-    { service: "Temporary Housing in the U.S.", price: "Fees vary" },
+  const memberships = [
+    { name: "Individual Memberships", price: "$449/Annual" },
+    { name: "Educational Organizations", price: "$1,249/Annual" },
+    { name: "J-1 Sponsors", price: "$1,249/Annual" },
+    { name: "Corporate/Business Members", price: "$1,599/Annual" },
   ];
+
+  const benefits = [
+    "Access to Members",
+    "Job Boards",
+    "E-Newsletters",
+    "Virtual Community Events",
+    "Cultural Immersion Trainings/Webinars*",
+    "Travel Information",
+    "Education Trainings/Webinars**",
+    "English Language Immersion Support",
+    "Technology Training",
+    "Visa & Tax Webinars",
+    "Relocation Information",
+    "Referral Services",
+    "Discounted U.S. Culture Tours",
+    "Discounted Rates to Regional and Annual Conferences",
+  ];
+
+  const benefitAccess = [
+    [true, false, true, true],
+    [false, false, true, true],
+    [true, false, false, false],
+    [false, true, false, false],
+    [true, true, false, false],
+    [false, false, true, false],
+    [false, true, false, false],
+    [false, false, true, false],
+    [false, false, true, false],
+    [false, false, true, false],
+    [false, false, true, false],
+    [false, false, true, false],
+    [false, false, false, true],
+    [true, true, true, true],
+  ];
+
   return (
-    <div className='bg-[#edfbff] pb-16'>
-      <h2 className="text-2xl font-bold pt-12 text-gray-800 uppercase tracking-wide text-center">
-        Our Membership Fees and Services
+    <div className=" p-6  flex flex-col justify-center">
+      <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">
+        Benefits of UBEA Membership (included in Annual Membership)
       </h2>
-      <p className="text-lg text-teal-600 italic mt-2 text-center">
-        No hidden charges, no exorbitant fees
-      </p>
-      <div className='flex flex-col w-[90%] mx-auto'>
-        <div className=' grid lg:grid-cols-4 gap-4 mt-8'>
-          <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 border-2 bg-slate-50 rouded-lg shadow-lg h-fit">
-            <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>Individual Memberships </h1>
-            <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>449</span>/annual</p>
-            <div className='mt-10 '>
-            <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <MdClose className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Access to Members</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Job Boards</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>E-Newsletters</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Virtual Community Events</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Cultural Immersion Trainings or Webinars*</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Travel Information </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Education Trainings or Webinars</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>English Language Immersion Support</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Technology Training</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Visa & Tax Webinars </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Relocation Information</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Referral Services</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Discounted U.S. Culture Tours</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Discounted Rates to Regional and
-                Annual Conferences</p>
-                
-              </div>
-              <div className='mt-8'><button className=' block p-4 w-[90%] mx-auto mb-4 shadow-md rounded-md bg-blue-900 hover:bg-blue-950 text-center text-gray-300 transition-all delay-300'>Make your Subscription</button></div>
-
-            </div>
-            </div>
-            <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 h-fit border-2 bg-slate-50 rouded-lg shadow-lg">
-            <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>Educational Organizations </h1>
-            <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>1,249</span>/anual</p>
-            <div className='mt-10 '>
-            <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Access to Members</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Job Boards</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>E-Newsletters</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Virtual Community Events</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Cultural Immersion Trainings or Webinars*</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm font-semibold text-gray-700'>Travel Information </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Education Trainings or Webinars</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>English Language Immersion Support</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm font-semibold text-gray-700'>Technology Training</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm font-semibold text-gray-700'>Visa & Tax Webinars </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm font-semibold text-gray-700'>Relocation Information</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm font-semibold text-gray-700'>Referral Services</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className='text-green-500'/>                </div>
-                <p className='text-sm font-semibold text-gray-700'>Discounted U.S. Culture Tours</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Discounted Rates to Regional and
-                Annual Conferences</p>
-                
-              </div>
-              <div className='mt-8'><button className=' block p-4 w-[90%] mx-auto mb-4 shadow-md rounded-md bg-blue-900 hover:bg-blue-950 text-center text-gray-300 transition-all delay-300'>Make your Subscription</button></div>
-
-            </div>
-            </div>
-            <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 h-fit border-2 bg-slate-50 rouded-lg shadow-lg">
-            <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>J-1 Sponsors  </h1>
-            <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>1,249</span>/anual</p>
-            <div className='mt-10 '>
-            <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Access to Members</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Job Boards</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>E-Newsletters</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Virtual Community Events</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Cultural Immersion Trainings or Webinars*</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Travel Information </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Education Trainings or Webinars</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>English Language Immersion Support</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Technology Training</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Visa & Tax Webinars </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Relocation Information</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Referral Services</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  " />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Discounted U.S. Culture Tours</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Discounted Rates to Regional and
-                Annual Conferences</p>
-                
-              </div>
-              <div className='mt-8'><button className=' block p-4 w-[90%] mx-auto mb-4 shadow-md rounded-md bg-blue-900 hover:bg-blue-950 text-center text-gray-300 transition-all delay-300'>Make your Subscription</button></div>
-
-            </div>
-            </div>
-            <div className=" transition duration-300 transform hover:scale-105 hover:bg-gray-500 border-2 bg-slate-50 rouded-lg shadow-lg h-fit">
-            <h1 className='text-l mt-6 font-semibold text-center text-blue-600'>Corporate/Business
-            Members </h1>
-            <p className='text-2xl from-neutral-900 text-center mt-3'>$<span className='text-5xl font-bold'>1,599</span>/anual</p>
-            <div className='mt-10 '>
-            <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Access to Members</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3 ' >
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Job Boards</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>E-Newsletters</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm font-semibold text-gray-700'>Virtual Community Events</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Cultural Immersion Trainings or Webinars*</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm font-semibold text-gray-700'>Travel Information </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Education Trainings or Webinars</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>English Language Immersion Support</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm font-semibold text-gray-700'>Technology Training</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm font-semibold text-gray-700'>Visa & Tax Webinars </p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm font-semibold text-gray-700'>Relocation Information</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm font-semibold text-gray-700'>Referral Services</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                <MdClose className="text-green-500  cursor-pointer" />                </div>
-                <p className='text-sm font-semibold text-gray-700'>Discounted U.S. Culture Tours</p>
-                
-              </div>
-              <div className='text-center flex  items-center  space-x-3'>
-                <div className='w-8 h-8 text-center justify-center  rounded-full flex flex-col  items-center'>
-                  <FaCheck className='text-green-500'/>
-                </div>
-                <p className='text-sm text-left font-semibold text-gray-700'>Discounted Rates to Regional and
-                Annual Conferences</p>
-                
-              </div>
-              <div className='mt-8'><button className=' block p-4 w-[90%] mx-auto mb-4 shadow-md rounded-md bg-blue-900 hover:bg-blue-950 text-center text-gray-300 transition-all delay-300'>Make your Subscription</button></div>
-
-            </div>
-            </div>
-          
-        </div>
-
-      </div>
-      <h1 className='text-2xl font-bold text-center text-gray-400 mt-8'>Additional UBEA Membership Services</h1>
-      <div>
-      <div className="border w-[80%] mx-auto border-gray-300 p-4 rounded-lg shadow-md mt-5 mb-6 bg-white">
-        
-        <ul className="space-y-2">
-          {additionalServices.map((service, index) => (
-            <li key={index} className="flex justify-between border-b py-2">
-              <span>{service.service}</span>
-              <span className="font-semibold">{service.price}</span>
-            </li>
+      <div className="w-full ">
+        <table className="w-full border-collapse border border-gray-400 text-left shadow-lg rounded-lg">
+          <thead>
+            <tr className="bg-blue-500 text-white">
+              <th className="p-4 border">Benefits</th>
+              {memberships.map((membership, index) => (
+                <th key={index} className="p-4 border text-center">
+                  <div className="text-lg font-semibold">{membership.name}</div>
+                  <div className="text-sm">{membership.price}</div>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {benefits.map((benefit, rowIndex) => (
+              <tr key={rowIndex} className="border bg-white even:bg-gray-50">
+                <td className="p-4 border font-medium">{benefit}</td>
+                {memberships.map((_, colIndex) => (
+                  <td key={colIndex} className="p-4 border text-center">
+                    {benefitAccess[rowIndex][colIndex] ? "✓" : ""}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div className="mt-6 flex justify-center gap-4">
+          {memberships.map((membership, index) => (
+            <button
+              key={index}
+              className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-md transition"
+            >
+              JOIN US - {membership.name}
+            </button>
           ))}
-        </ul>
-      </div>
-
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Homepagepricing
