@@ -43,9 +43,9 @@ const Homepagepricing = () => {
   ];
 
   return (
-    <div className="p-2 flex flex-col gap-3 bg-cover bg-center bg-no-repeat"
-    style={{ backgroundImage: "url('t54.jpg')" }}>
-    <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">
+    <div className="p-2 flex flex-col gap-3 bg-cover bg-center bg-no-repeat  bg-fixed"
+    style={{ backgroundImage: "url('t44.jpg')" }}>
+    <h2 className="text-2xl font-bold text-white mb-4 text-center">
       Benefits of UBEA Membership (included in Annual Membership)
     </h2>
   
@@ -99,27 +99,30 @@ const Homepagepricing = () => {
       <div className="w-full flex flex-col gap-6 p-2">
   {/* First Row */}
   <div className="grid grid-cols-2 gap-4">
-  <div className="relative mt-10 w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden">
+  <div className="relative mt-10 w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden group">
   {/* Image */}
   <img
     src="footer2.jpg"
     alt="Image 1"
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover transition-transform duration-500"
   />
 
-  {/* Overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-center p-4">
+  {/* Overlay (Hidden Initially, Appears on Hover) */}
+  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
+      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
     <h2 className="text-2xl font-bold uppercase">Individual Memberships</h2>
-    <p className="text-lg mt-2">For indivial purpose</p>
-    
-    {/* Decorative Line */}
+    <p className="text-lg mt-2">For individual purposes</p>
+
+    {/* Button */}
     <button className="mt-4 px-6 py-3 text-lg font-semibold text-white rounded-full shadow-lg bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 transition duration-300">
-  JOIN US
-</button>
+      JOIN US
+    </button>
   </div>
 </div>
 
-<div className="relative w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden">
+
+
+<div className="relative w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden  group">
   {/* Image */}
   <img
     src="t10.jpg"
@@ -128,7 +131,8 @@ const Homepagepricing = () => {
   />
 
   {/* Overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-center p-4">
+  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
+      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
     <h2 className="text-2xl font-bold uppercase">Educational Organizations</h2>
     <p className="text-lg mt-2">For Educational Organizations</p>
     
@@ -143,7 +147,7 @@ const Homepagepricing = () => {
 
   {/* Second Row */}
   <div className="grid grid-cols-2 gap-4">
-  <div className="relative w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden">
+  <div className="relative w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden group">
   {/* Image */}
   <img
     src="t8.png"
@@ -152,7 +156,8 @@ const Homepagepricing = () => {
   />
 
   {/* Overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-center p-4">
+  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
+      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
     <h2 className="text-2xl font-bold uppercase">J-1 Sponsors</h2>
     <p className="text-lg mt-2">For J-1 Sponsors</p>
     
@@ -162,7 +167,7 @@ const Homepagepricing = () => {
 </button>
   </div>
 </div>
-<div className="relative w-full mt-10 h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden">
+<div className="relative w-full mt-10 h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden group">
   {/* Image */}
   <img
     src="t9.jpg"
@@ -171,7 +176,8 @@ const Homepagepricing = () => {
   />
 
   {/* Overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-center p-4">
+  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
+      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
     <h2 className="text-2xl font-bold uppercase">Corporate/Business Members</h2>
     <p className="text-lg mt-2">Corporate/Business Members Purpose</p>
     
