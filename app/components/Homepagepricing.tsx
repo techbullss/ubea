@@ -43,17 +43,17 @@ const Homepagepricing = () => {
   ];
 
   return (
-    <div className="p-2 flex flex-col gap-3 bg-cover bg-center bg-no-repeat  bg-fixed"
+    <div className="p-2 flex flex-col  bg-cover bg-center bg-no-repeat  bg-fixed"
     style={{ backgroundImage: "url('t44.jpg')" }}>
     <h2 className="text-2xl font-bold text-white mb-4 text-center">
       Benefits of UBEA Membership (included in Annual Membership)
     </h2>
   
     {/* Flex container for table and image */}
-    <div className="grid grid-cols-2  gap-8">
+    <div className="grid grid-cols-2  ">
       
       {/* Table Section - Adjusted Width */}
-      <div className="w-[45%]">
+      <div className="">
         <table className="w-full border-collapse border border-gray-400 text-left shadow-lg rounded-lg text-sm">
           <thead>
             <tr className="bg-blue-500 text-white">
@@ -96,61 +96,16 @@ const Homepagepricing = () => {
       </div>
   
       {/* Image Section - Larger Width */}
-      <div className="w-full flex flex-col gap-6 p-2">
+      <div className="w-full flex flex-col  p-2">
   {/* First Row */}
-  <div className="grid grid-cols-2 gap-4">
-  <div className="relative mt-10 w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden group">
-  {/* Image */}
-  <img
-    src="footer2.jpg"
-    alt="Image 1"
-    className="w-full h-full object-cover transition-transform duration-500"
-  />
-
-  {/* Overlay (Hidden Initially, Appears on Hover) */}
-  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
-      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
-    <h2 className="text-2xl font-bold uppercase">Individual Memberships</h2>
-    <p className="text-lg mt-2">For individual purposes</p>
-
-    {/* Button */}
-    <button className="mt-4 px-6 py-3 text-lg font-semibold text-white rounded-full shadow-lg bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 transition duration-300">
-      JOIN US
-    </button>
-  </div>
-</div>
-
-
-
-<div className="relative w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden  group">
-  {/* Image */}
-  <img
-    src="t10.jpg"
-    alt="Image 1"
-    className="w-full h-full object-cover"
-  />
-
-  {/* Overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
-      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
-    <h2 className="text-2xl font-bold uppercase">Educational Organizations</h2>
-    <p className="text-lg mt-2">For Educational Organizations</p>
-    
-    {/* Decorative Line */}
-    <button className="mt-4 px-6 py-3 text-lg font-semibold text-white rounded-full shadow-lg bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 transition duration-300">
-  JOIN US
-</button>
-  </div>
-</div>
-    
-  </div>
+  
 
   {/* Second Row */}
-  <div className="grid grid-cols-2 gap-4">
-  <div className="relative w-full h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden group">
+  <div className="grid  ">
+  <div className="relative w-full h-[100vh]   group">
   {/* Image */}
   <img
-    src="t8.png"
+    src="uni.png"
     alt="Image 1"
     className="w-full h-full object-cover"
   />
@@ -158,8 +113,8 @@ const Homepagepricing = () => {
   {/* Overlay */}
   <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
       opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
-    <h2 className="text-2xl font-bold uppercase">J-1 Sponsors</h2>
-    <p className="text-lg mt-2">For J-1 Sponsors</p>
+    <h2 className="text-2xl font-bold uppercase">UBEA</h2>
+    <p className="text-lg mt-2">No hidden Charges</p>
     
     {/* Decorative Line */}
     <button className="mt-4 px-6 py-3 text-lg font-semibold text-white rounded-full shadow-lg bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 transition duration-300">
@@ -167,26 +122,7 @@ const Homepagepricing = () => {
 </button>
   </div>
 </div>
-<div className="relative w-full mt-10 h-[50vh] rounded-lg shadow-lg border-8 border-black overflow-hidden group">
-  {/* Image */}
-  <img
-    src="t9.jpg"
-    alt="Image 1"
-    className="w-full h-full object-cover"
-  />
 
-  {/* Overlay */}
-  <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center p-4 
-      opacity-0 invisible transition-opacity duration-500 group-hover:opacity-100 group-hover:visible">
-    <h2 className="text-2xl font-bold uppercase">Corporate/Business Members</h2>
-    <p className="text-lg mt-2">Corporate/Business Members Purpose</p>
-    
-    {/* Decorative Line */}
-    <button className="mt-4 px-6 py-3 text-lg font-semibold text-white rounded-full shadow-lg bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500 transition duration-300">
-  JOIN US
-</button>
-  </div>
-</div>
   </div>
 </div>
 
