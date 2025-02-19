@@ -44,7 +44,7 @@ const Homepagepricing = () => {
 
   return (
     <div className="p-2 flex flex-col  bg-cover bg-center bg-no-repeat  bg-fixed"
-    style={{ backgroundImage: "url('t44.jpg')" }}>
+    >
     <h2 className="text-2xl font-bold text-white mb-4 text-center">
       Benefits of UBEA Membership (included in Annual Membership)
     </h2>
