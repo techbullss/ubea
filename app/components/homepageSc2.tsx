@@ -1,60 +1,104 @@
 "use client"
 import React from 'react'
-import Image from "next/image";
+
 import { FaArrowRight } from 'react-icons/fa6';
-import { motion } from "framer-motion";
+
 const homepageSc2 = () => {
   return (
-    <motion.div
-      className="pt-10"
-      initial={{ opacity: 0, x: -50 }} // Starts off-screen to the left
-      whileInView={{ opacity: 1, x: 0 }} // Animates when in view
-      transition={{ duration: 1, delay: 0.5, ease: "easeOut" }} // Adds a 0.5s delay
-      viewport={{ once: false, amount: 0.2 }} // Adjust duration as needed
-    >
+    
       
-    <h1 className='mt-6 mb-6 md:text-3xl capitalize font-bold  text-center'> Why choose ubea</h1>
-    <div className='flex flex-col  bg-[#f7f6fb]'>
-        <div className='grid pt-20 grid-cols-1 lg:grid-cols-2 item-center gap-12'>
-            <div className='flex flex-col items-center'>
-                <p className='text-center mt-6 md:text-3xl font-extrabold  text-gray-600 block mb-4'>United Borders in Education Association (UBEA)</p>
-                <p className='text-center mt-10 md:text-2xl font-inter text-gray-600 leading-8 tracking-wide'>With over 20 years of experience in education, leadership, and international program management and recruitment, we’re connecting people where it matters. For sustainability and change. For the future.</p>
-                <button className="flex items-center gap-2 mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
-  Join UBEA
-  <FaArrowRight className="text-white text-xl transition-transform duration-300 group-hover:translate-x-1" />
-</button>
-    
+    <div className='relative w-full  flex flex-col bg-[#fbf6fa] bg-gradient-to-r from-pink-200 to-sky-200 text-gray-900'>
+            <div className='grid grid-cols-2 pt-16 pb-0 gap-1 '>
+            <div className="p-6 flex flex-col items-center">
+  <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">
+    Why Join UBEA?
+  </h2>
+  <p className="text-2xl text-gray-700 leading-relaxed text-center max-w-2xl">
+    <span className="font-semibold text-blue-600">UBEA</span> is an organization revolutionizing 
+    the way hiring works and eliminating unnecessary fees. 
+    <span className="font-semibold"> Authentic and present</span>, we are a community that grows together 
+    through a genuine desire for collective success—including yours.
+  </p>
+  <p className="text-lg text-gray-700 leading-relaxed text-center mt-4 max-w-2xl">
+    So, why join us? Because our focus is on 
+    <span className="font-semibold text-blue-600"> empowerment, liberation</span>, and 
+    <span className="font-semibold text-blue-600"> maximum rewards</span> for the people 
+    and organizations we serve.
+  </p>
+  <button className="flex justify-center items-center gap-2 mt-5 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                      Join UBEA
+                      <FaArrowRight className="text-white text-xl transition-transform duration-300 group-hover:translate-x-1" />
+                    </button>
+</div>
 
+             <div>
+             <img
+        src="footer.jpeg"
+        alt="Image 2"
+        className="w-[100%] h-[100%]  border-solid-4 rounded-lg shadow-lg object-cover"
+      /></div>   
+    
             </div>
+            <div className='grid grid-cols-2 pt-0 pb-28 gap-1 '>
             <div>
-        <Image  src={'/teacher.png' } alt={'log image'} width={800} height={800}/>
-                
-            </div>
+             <img
+        src="footer.jpeg"
+        alt="Image 2"
+        className="w-[100%] h-[50%]  border-solid-4 rounded-lg shadow-lg object-cover"
+      /></div>   
+            <div className="p-6 flex flex-col items-center">
+  <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">
+    Our Mission
+  </h2>
 
-        </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 item-center gap-12'>
-        <div className='mt-32'>
-        <Image  src={'/classroom.png' } alt={'log image'} width={500} height={500}/>
-                
-            </div>
-            <div className='flex  flex-col items-center'>
-                <p className='text-center mt-32 md:text-3xl font-extrabold  text-gray-600 block mb-4'>UBEA makes the best even better</p>
-                <p className='text-center mt-10 md:text-2xl font-inter text-gray-600 leading-8 tracking-wide'> We train, we support, and we meet the needs of our network members by ensuring seamless integration and the cultural exchange of international hires across diverse settings</p>
-                <button className="flex items-center gap-2 mt-10 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
-  Join UBEA
-  <FaArrowRight className="text-white text-xl transition-transform duration-300 group-hover:translate-x-1" />
-</button>
+  <p className="text-lg text-gray-700 leading-relaxed text-center max-w-2xl">
+    Our mission is to <span className="font-semibold">connect highly skilled individuals</span> 
+    with hiring organizations from around the globe to advance workforce development.
+  </p>
+
+  <p className="text-lg text-gray-700 leading-relaxed text-center mt-4 max-w-2xl">
+    We <span className="font-semibold text-blue-600">train</span>, we <span className="font-semibold text-blue-600">support</span>, 
+    and we meet the needs of our network members by ensuring 
+    <span className="font-semibold"> seamless integration</span> and 
+    <span className="font-semibold"> cultural exchange</span> of international hires across diverse settings.
+  </p>
+
+  <p className="text-lg text-gray-700 leading-relaxed text-center mt-4 max-w-2xl">
+    Our mission is driven by the promise to do this work with 
+    <span className="font-semibold text-blue-600"> transparency and care</span>.
+  </p>
+
+  {/* Key Highlights */}
+  <div className="mt-6">
+    <p className="text-xl font-bold text-blue-600 text-center">No hidden charges, no exorbitant fees.</p>
+    <p className="text-xl font-bold text-blue-600 text-center mt-2">We care about people.</p>
+  </div>
+
+  {/* Closing Call to Action */}
+  <p className="text-lg text-gray-700 leading-relaxed text-center mt-6 max-w-2xl">
+    So, <span className="font-semibold text-blue-600">let’s get started.</span> 
+    Not with just our solutions, but with <span className="font-semibold">your needs</span>.
+  </p>
+  <button className="flex justify-center items-center gap-2 mt-5 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold rounded-full shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                      Join UBEA
+                      <FaArrowRight className="text-white text-xl transition-transform duration-300 group-hover:translate-x-1" />
+                    </button>
+</div>
+
+             
     
-
             </div>
-            
-
+            <div className="absolute bottom-0 w-full">
+        <svg viewBox="0 0 1300 320" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill="#ffffff"
+            fillOpacity="1"
+            d="M0,160L80,176C160,192,320,224,480,213.3C640,203,800,149,960,133.3C1120,117,1280,139,1360,149.3L1440,160V320H0Z"
+          ></path>
+        </svg>
+      </div>
         </div>
-        
-
-    </div>
     
-    </motion.div>
   )
 }
 

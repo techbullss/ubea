@@ -43,19 +43,24 @@ const Homepagepricing = () => {
   ];
 
   return (
-    <div className=" p-6  flex flex-col justify-center">
-      <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">
-        Benefits of UBEA Membership (included in Annual Membership)
-      </h2>
-      <div className="w-full ">
-        <table className="w-full border-collapse border border-gray-400 text-left shadow-lg rounded-lg">
+    <div className="p-6 flex flex-col">
+    <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">
+      Benefits of UBEA Membership (included in Annual Membership)
+    </h2>
+  
+    {/* Flex container for table and image */}
+    <div className="flex flex-row items-center gap-6">
+      
+      {/* Table Section - Adjusted Width */}
+      <div className="w-[45%]">
+        <table className="w-full border-collapse border border-gray-400 text-left shadow-lg rounded-lg text-sm">
           <thead>
             <tr className="bg-blue-500 text-white">
-              <th className="p-4 border">Benefits</th>
+              <th className="p-3 border">Benefits</th>
               {memberships.map((membership, index) => (
-                <th key={index} className="p-4 border text-center">
-                  <div className="text-lg font-semibold">{membership.name}</div>
-                  <div className="text-sm">{membership.price}</div>
+                <th key={index} className="p-3 border text-center">
+                  <div className="text-base font-semibold">{membership.name}</div>
+                  <div className="text-xs">{membership.price}</div>
                 </th>
               ))}
             </tr>
@@ -63,28 +68,51 @@ const Homepagepricing = () => {
           <tbody>
             {benefits.map((benefit, rowIndex) => (
               <tr key={rowIndex} className="border bg-white even:bg-gray-50">
-                <td className="p-4 border font-medium">{benefit}</td>
+                <td className="p-1 border font-medium">{benefit}</td>
                 {memberships.map((_, colIndex) => (
-                  <td key={colIndex} className="p-4 border text-center">
+                  <td key={colIndex} className="p-1 border text-center">
                     {benefitAccess[rowIndex][colIndex] ? "✓" : ""}
                   </td>
                 ))}
               </tr>
             ))}
+  
+            {/* Buttons Row */}
+            <tr className="bg-gray-100">
+              <td className="p-1 border font-medium text-center">Join Now</td>
+              {memberships.map((membership, index) => (
+                <td key={index} className="p-1 border text-center">
+                  <button
+                    className="px-2 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-md transition text-sm"
+                  >
+                    JOIN US
+                  </button>
+                </td>
+              ))}
+            </tr>
           </tbody>
         </table>
-        <div className="mt-6 flex justify-center gap-4">
-          {memberships.map((membership, index) => (
-            <button
-              key={index}
-              className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-md transition"
-            >
-              JOIN US - {membership.name}
-            </button>
-          ))}
-        </div>
       </div>
+  
+      {/* Image Section - Larger Width */}
+      <div className="w-[100%] px-5 flex flex-col h-screen gap-4">
+      <img
+        src="footer2.jpg"
+        alt="Image 1"
+        className="w-[100%] h-[50%]  rounded-lg shadow-lg object-cover"
+      />
+
+      <img
+        src="footer.jpeg"
+        alt="Image 2"
+        className="w-[100%] h-[50%]  border-solid-4 rounded-lg shadow-lg object-cover"
+      />
     </div>
+  
+    </div>
+  </div>
+  
+
   );
 }
 
