@@ -9,11 +9,11 @@ const homepageSc2 = () => {
       
     <div className='relative w-full  flex flex-col bg-[#fbf6fa] bg-gradient-to-r from-pink-200 to-sky-200 text-gray-900'>
             <div className='grid grid-cols-2 pt-16 pb-16 gap-1 '>
-            <div className="p-28 flex flex-col items-center">
+            <div className="pt-28 mx-3 flex flex-col items-center">
   <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">
     Why Join UBEA?
   </h2>
-  <p className="text-2xl text-gray-700 leading-relaxed text-center max-w-2xl">
+  <p className="text-2xl text-gray-700 leading-relaxed  ">
     <span className="font-semibold text-blue-600">UBEA</span> is an organization revolutionizing 
     the way hiring works and eliminating unnecessary fees. 
     <span className="font-semibold"> Authentic and present</span>, we are a community that grows together 
