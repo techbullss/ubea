@@ -8,8 +8,8 @@ const homepageSc2 = () => {
     
       
     <div className='relative w-full  flex flex-col bg-[#fbf6fa] bg-gradient-to-r from-pink-200 to-sky-200 text-gray-900'>
-            <div className='grid grid-cols-2 pt-16 pb-0 gap-1 '>
-            <div className="p-6 flex flex-col items-center">
+            <div className='grid grid-cols-2 pt-16 pb-16 gap-1 '>
+            <div className="p-28 flex flex-col items-center">
   <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">
     Why Join UBEA?
   </h2>
@@ -31,20 +31,20 @@ const homepageSc2 = () => {
                     </button>
 </div>
 
-             <div>
+             <div className='flex items-center mt-0'>
              <img
-        src="footer.jpeg"
+        src="t3.png"
         alt="Image 2"
-        className="w-[100%] h-[100%]  border-solid-4 rounded-lg shadow-lg object-cover"
+        className="w-[100%]   "
       /></div>   
     
             </div>
-            <div className='grid grid-cols-2 pt-0 pb-28 gap-1 '>
+            <div className='grid grid-cols-2 pt-0 pb-60 gap-1 '>
             <div>
              <img
-        src="footer.jpeg"
+        src="t77.png"
         alt="Image 2"
-        className="w-[100%] h-[50%]  border-solid-4 rounded-lg shadow-lg object-cover"
+        className="w-[100%]    object-cover"
       /></div>   
             <div className="p-6 flex flex-col items-center">
   <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">

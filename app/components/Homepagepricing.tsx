@@ -43,13 +43,13 @@ const Homepagepricing = () => {
   ];
 
   return (
-    <div className="p-6 flex flex-col">
+    <div className="p-2 flex flex-col">
     <h2 className="text-2xl font-bold text-blue-600 mb-4 text-center">
       Benefits of UBEA Membership (included in Annual Membership)
     </h2>
   
     {/* Flex container for table and image */}
-    <div className="flex flex-row items-center gap-6">
+    <div className="grid grid-cols-2  gap-0">
       
       {/* Table Section - Adjusted Width */}
       <div className="w-[45%]">
@@ -95,19 +95,37 @@ const Homepagepricing = () => {
       </div>
   
       {/* Image Section - Larger Width */}
-      <div className="w-[100%] px-5 flex flex-col h-screen gap-4">
-      <img
-        src="footer2.jpg"
-        alt="Image 1"
-        className="w-[100%] h-[50%]  rounded-lg shadow-lg object-cover"
-      />
+      <div className="w-full flex flex-col gap-6 p-2">
+  {/* First Row */}
+  <div className="grid grid-cols-2 gap-4">
+    <img
+      src="footer2.jpg"
+      alt="Image 1"
+      className="w-full h-[50vh]  rounded-lg shadow-lg object-cover border-8 border-black"
+    />
+    <div className='pt-6'><img
+      src="t10.jpg"
+      alt="Image 2"
+      className="w-full h-[50vh] rounded-lg shadow-lg object-cover border-8 border-black"
+    /></div>
+    
+  </div>
 
-      <img
-        src="footer.jpeg"
-        alt="Image 2"
-        className="w-[100%] h-[50%]  border-solid-4 rounded-lg shadow-lg object-cover"
-      />
-    </div>
+  {/* Second Row */}
+  <div className="grid grid-cols-2 gap-4">
+    <img
+      src="t8.png"
+      alt="Image 3"
+      className="w-full h-[50vh] rounded-lg shadow-lg object-cover border-8 border-black"
+    />
+    <div className='pt-6'><img
+      src="t9.jpg"
+      alt="Image 2"
+      className="w-full h-[50vh] rounded-lg shadow-lg object-cover border-8 border-black"
+    /></div>
+  </div>
+</div>
+
   
     </div>
   </div>
