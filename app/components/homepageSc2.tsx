@@ -90,7 +90,7 @@ const homepageSc2 = () => {
     
             </div>
             <div className="absolute bottom-0 w-full">
-        <svg viewBox="0 0 1300 320" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 1300 220" xmlns="http://www.w3.org/2000/svg">
           <path
             fill="#ffffff"
             fillOpacity="1"
