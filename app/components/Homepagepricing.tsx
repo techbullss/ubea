@@ -86,7 +86,7 @@ const Homepagepricing = () => {
                   <button
                     className="px-2 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-md transition text-sm"
                   >
-                    JOIN US
+                    JOIN 
                   </button>
                 </td>
               ))}
