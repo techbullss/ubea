@@ -7,7 +7,7 @@ const homepageSc2 = () => {
   return (
     
       
-    <div className='relative w-full  flex flex-col bg-[#fbf6fa] bg-gradient-to-r from-pink-200 to-sky-200 text-gray-900'>
+    <div className='relative w-full  flex flex-col bg-[#fbf6fa]  text-gray-900'>
             <div className='grid grid-cols-2 pt-16 pb-16 gap-1 '>
             <div className="pt-0 mx-3 flex flex-col items-center">
   <h2 className="text-3xl font-bold text-blue-600 mb-4 text-center">
