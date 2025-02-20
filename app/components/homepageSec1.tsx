@@ -1,28 +1,42 @@
-import React from 'react'
+"use client"
+import React, { useRef, useState } from 'react';
 
-const homepageSec1 = () => {
+import { Volume2, VolumeX } from "lucide-react";
+const HomepageSec1 = () => {
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(videoRef.current.muted);
+    }
+  };
   return (
     <div className="flex flex-col w-full">
   <div className="relative w-full h-[90vh] md:h-screen overflow-hidden">
     
     {/* Video Background */}
     <video
+    ref={videoRef}
       className="absolute top-0 left-0 w-full h-full md:object-cover sm:object-cover"
       autoPlay
       loop
-      muted
+      muted={isMuted}
       playsInline
     >
-      <source src="/student.mp4" type="video/mp4" />
+      <source src="/students.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
+    <button
+        onClick={toggleMute}
+        className="absolute bottom-5 right-[50%] p-3 bg-black/50 text-white rounded-full"
+      >
+        {isMuted ? <VolumeX size={64} /> : <Volume2 size={64} />}
+      </button>
 
     {/* Overlay Content */}
-    <div className="relative z-10 flex items-center justify-center h-full px-4 text-center">
-      <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 drop-shadow-lg animate-pulse">
-        Welcome to <span className="text-white ml-2">UBEA</span>
-      </h1>
-    </div>
+    
 
   </div>
 </div>
@@ -30,4 +44,4 @@ const homepageSec1 = () => {
   )
 }
 
-export default homepageSec1
+export default HomepageSec1

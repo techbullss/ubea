@@ -50,7 +50,7 @@ const Homepagepricing = () => {
     </h2>
   
     {/* Flex container for table and image */}
-    <div className="grid grid-cols-2  ">
+    <div className="grid gap-6 grid-cols-2  ">
       
       {/* Table Section - Adjusted Width */}
       <div className="">
