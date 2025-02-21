@@ -40,7 +40,7 @@ const homepageSc2 = () => {
     
             </div>
             <div className=' w-[90%] mx-auto grid grid-cols-2 pt-0  gap-1 '>
-            <div>
+            <div className='pt-24'>
              <img
         src="t77.png"
         alt="Image 2"
@@ -60,7 +60,7 @@ const homepageSc2 = () => {
     <span className="font-semibold"> seamless integration</span> and 
     <span className="font-semibold"> cultural exchange</span> of international hires across diverse settings.
     Our mission is driven by the promise to do this work with 
-    <span className="font-semibold text-grey-600"> transparency and care</span>
+    <span className="font-semibold text-grey-600"> transparency and care. </span>
     So, <span className="font-semibold text-grey-600">let’s get started.</span> 
     Not with just our solutions, but with <span className="font-semibold">your needs</span>.
     No hidden charges, no exorbitant fees
