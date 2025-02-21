@@ -39,7 +39,7 @@ return ()=>{
                 return(
                     <Link href={Links.url} key={Links.id}> <p
                     className={`text-white hover:text-gray-500 transition duration-300 relative 
-                      ${isActive ? "text-cyan-500 font-bold" : "text-white"}
+                      ${isActive ? "text-red-600 font-bold" : "text-white"}
                       after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-teal-300 after:transition-all after:duration-300 hover:after:w-full`}>{Links.label}
                         </p>   </Link>     );
             })}
