@@ -6,8 +6,8 @@ export default function Pricing() {
         benefits: ["Access to Members", "Job Boards", "E-Newsletters", "Virtual Community Events"],
       },
       {
-        type: "Educational Organizations",
-        price: "$1,249/Annual",
+        type: "Hiring Organizations",
+        price: "No fee",
         benefits: [
           "Access to Members",
           "E-Newsletters",
@@ -18,7 +18,7 @@ export default function Pricing() {
       },
       {
         type: "J-1 Sponsors",
-        price: "$1,249/Annual",
+        price: "No Fee",
         benefits: [
           "Access to Members",
           "E-Newsletters",
