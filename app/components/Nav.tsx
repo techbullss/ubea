@@ -40,7 +40,7 @@ return ()=>{
         </div>
         <div className='hidden lg:flex space-x-15text-sm text-gray-100 items-center gap-10'>
             {nav_links.map((Links)=>{
-               const isActive = currentPath === Links.url;
+               const isActive = hydrated && currentPath === Links.url;
                 return(
                     <Link href={Links.url} key={Links.id}> <p
                     className={`text-white hover:text-gray-500 transition duration-300 relative 
