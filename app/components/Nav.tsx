@@ -11,6 +11,11 @@ import { usePathname } from "next/navigation";
 
 const Nav = () => {
   const currentPath = usePathname();
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
   const [navBgs,setnavBg]=useState(false);
   useEffect(()=>{
     const hadler= ()=>{
