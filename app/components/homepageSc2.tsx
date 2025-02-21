@@ -52,7 +52,7 @@ const homepageSc2 = () => {
   </h2>
   <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
 
-  <p className="text-3xl text-gray-700 leading-relaxed pt-6 mb-6 ">
+  <p className="text-2xl text-gray-700 leading-relaxed pt-6 mb-6 ">
     Our mission is to <span className="font-semibold">connect highly skilled individuals</span> 
     with hiring organizations from around the globe to advance workforce development.
     We <span className="font-semibold text-blue-600">train</span>, we <span className="font-semibold text-blue-600">support</span>, 
