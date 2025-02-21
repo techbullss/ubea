@@ -90,7 +90,7 @@ const Homepagepricing = () => {
   
 
   {/* Second Row */}
-  <div className="grid  ">
+  <div >
   <div className="relative w-full h-[100vh]   group">
   {/* Image */}
   <img
