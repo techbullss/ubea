@@ -44,21 +44,22 @@ const Homepagepricing = () => {
 
   return (
     <div
-  className="flex flex-col bg-cover bg-center bg-no-repeat bg-fixed"
+  className="flex flex-col bg-cover  bg-center bg-no-repeat bg-fixed"
   style={{ backgroundImage: "url('josh4.jpeg')" }}
 >
-    <h2 className="text-2xl font-bold text-black mb-4 text-center">
+<hr className="w-[20%] mx-auto border-t-8 border-stone-50 rounded mt-8" />
+    <h2 className="text-2xl font-bold text-gray-500 pt-6 mb-8 text-center">
     UBEA Annual Membership Cost and Benefits
     </h2>
   
     {/* Flex container for table and image */}
-    <div className="grid gap-6 grid-cols-2  ">
+    <div className="grid gap-20 md:grid-cols-2 w-[95%] mx-auto ">
       
       {/* Table Section - Adjusted Width */}
-      <div className="">
-        <table className="w-full border-collapse border border-gray-400 text-left shadow-lg rounded-lg text-sm">
+      
+        <table className="w-full border-collapse border-2 mb-8  border-gray-400 text-left shadow-lg rounded-lg text-sm">
           <thead>
-            <tr className="bg-blue-500 text-white">
+            <tr className="bg-grey-500 text-black">
               <th className="p-3 border">Benefits</th>
               {memberships.map((membership, index) => (
                 <th key={index} className="p-3 border text-center">
@@ -70,10 +71,10 @@ const Homepagepricing = () => {
           </thead>
           <tbody>
             {benefits.map((benefit, rowIndex) => (
-              <tr key={rowIndex} className="border bg-white even:bg-gray-50">
-                <td className="p-1 border font-medium">{benefit}</td>
+              <tr key={rowIndex} className="border">
+                <td className="p-1 border font-medium text-zinc-950">{benefit}</td>
                 {memberships.map((_, colIndex) => (
-                  <td key={colIndex} className="p-1 border text-center">
+                  <td key={colIndex} className="p-1 border text-lg text-black text-center">
                     {benefitAccess[rowIndex][colIndex] ? "✓" : ""}
                   </td>
                 ))}
@@ -84,21 +85,18 @@ const Homepagepricing = () => {
             
           </tbody>
         </table>
-      </div>
+      
   
       {/* Image Section - Larger Width */}
-      <div className="w-full flex flex-col  p-2">
-  {/* First Row */}
-  
+      
 
-  {/* Second Row */}
-  <div >
-  <div className="relative w-full h-[100vh]   group">
+  
+  <div className="relative w-full">
   {/* Image */}
   <img
     src="uni.png"
     alt="Image 1"
-    className="w-full h-full object-cover"
+    className=" object-cover h-screen"
   />
 
   {/* Overlay */}
@@ -113,13 +111,13 @@ const Homepagepricing = () => {
 </button>
   </div>
 </div>
-
-  </div>
 </div>
+  </div>
+
 
   
-    </div>
-  </div>
+    
+  
   
 
   );
