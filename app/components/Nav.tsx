@@ -42,9 +42,9 @@ return ()=>{
             {nav_links.map((Links)=>{
                const isActive = hydrated && currentPath === Links.url;
                 return(
-                    <Link href={Links.url} key={Links.id} aria-current={isActive ? "page" : undefined}> <p
+                    <Link href={Links.url} key={Links.id} > <p style={{ color: isActive ? "grey" : "white", fontWeight: "bold",fontSize:isActive ?"30px":""}}
                     className={`text-white hover:text-gray-500 transition duration-300 relative 
-                      ${isActive ? "text-2xl text-teal-200  font-bold" : "text-white"}
+                     
                       after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-teal-300 after:transition-all after:duration-300 hover:after:w-full`}>{Links.label}
                         </p>   </Link>     );
             })}
