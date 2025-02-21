@@ -1,10 +1,10 @@
 
-"use client"
-import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
-import { nav_links } from '../constant/constant'
-import Link from 'next/link'
-import { HiBars3BottomRight } from 'react-icons/hi2'
+"use client";
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
+import { nav_links } from '../constant/constant';
+import Link from 'next/link';
+import { HiBars3BottomRight } from 'react-icons/hi2';
 import { FaPhone } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { usePathname } from "next/navigation";

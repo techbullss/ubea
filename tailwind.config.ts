@@ -14,5 +14,12 @@ export default {
       },
     },
   },
+  safelist: [
+    "text-cyan-400", 
+    "font-bold", 
+    "text-white",
+    "after:w-full", 
+    "after:bg-cyan-400"
+  ],
   plugins: [],
 } satisfies Config;
