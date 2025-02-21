@@ -7,8 +7,10 @@ import Link from 'next/link'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 import { FaPhone } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { usePathname } from "next/navigation";
 
 const Nav = () => {
+  const currentPath = usePathname();
   const [navBgs,setnavBg]=useState(false);
   useEffect(()=>{
     const hadler= ()=>{
@@ -33,8 +35,12 @@ return ()=>{
         </div>
         <div className='hidden lg:flex space-x-15text-sm text-gray-100 items-center gap-10'>
             {nav_links.map((Links)=>{
+               const isActive = currentPath === Links.url;
                 return(
-                    <Link href={Links.url} key={Links.id}> <p>{Links.label}
+                    <Link href={Links.url} key={Links.id}> <p
+                    className={`text-white hover:text-gray-500 transition duration-300 relative 
+                      ${isActive ? "text-cyan-500" : ""}
+                      after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-teal-300 after:transition-all after:duration-300 hover:after:w-full`}>{Links.label}
                         </p>   </Link>     );
             })}
             <div className='text-white items-center gap-5 flex'>

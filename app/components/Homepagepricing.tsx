@@ -3,8 +3,8 @@ import React from 'react'
 const Homepagepricing = () => {
   const memberships = [
     { name: "Individual Memberships", price: "$449/Annual" },
-    { name: "Educational Organizations", price: "$1,249/Annual" },
-    { name: "J-1 Sponsors", price: "$1,249/Annual" },
+    { name: "Hiring Organizations", price: "No Fee" },
+    { name: "J-1 Sponsors", price: " No Fee" },
     { name: "Corporate/Business Members", price: "$1,599/Annual" },
   ];
 
@@ -28,23 +28,25 @@ const Homepagepricing = () => {
   const benefitAccess = [
     [true, false, true, true],
     [false, false, true, true],
-    [true, false, false, false],
+    [true, false, true, false],
     [false, true, false, false],
     [true, true, false, false],
-    [false, false, true, false],
+    [true, false, false, false],
     [false, true, false, false],
-    [false, false, true, false],
-    [false, false, true, false],
-    [false, false, true, false],
-    [false, false, true, false],
-    [false, false, true, false],
-    [false, false, false, true],
+    [true, false, false, false],
+    [true, false, false, false],
+    [true, false, false, false],
+    [true, false, false, false],
+    [true, false, false, false],
+    [true, false, false, true],
     [true, true, true, true],
   ];
 
   return (
-    <div className=" flex flex-col  bg-cover bg-center bg-no-repeat bg-slate-300 bg-fixed"
-    >
+    <div
+  className="flex flex-col bg-cover bg-center bg-no-repeat bg-fixed"
+  style={{ backgroundImage: "url('josh4.jpeg')" }}
+>
     <h2 className="text-2xl font-bold text-black mb-4 text-center">
     UBEA Annual Membership Cost and Benefits
     </h2>
