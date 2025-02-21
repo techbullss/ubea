@@ -15,13 +15,13 @@ const homepageSc2 = () => {
     Why Join UBEA?
   </h2>
   <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
-  <p className="text-3xl text-gray-600 leading-relaxed pt-6 ">
+  <p className="text-2xl text-gray-600  pt-6 ">
     <span className="font-semibold text-blue-600">UBEA</span> is an organization revolutionizing 
     the way hiring works and eliminating unnecessary fees. 
     <span className="font-semibold"> Authentic and present</span>, we are a community that grows together 
     through a genuine desire for collective success—including yours.
   </p>
-  <p className="text-3xl text-gray-700 leading-relaxed  mt-4">
+  <p className="text-2xl text-gray-700  mt-4">
     So, why join us? Because our focus is on 
     <span className="font-semibold text-blue-600"> empowerment, liberation</span>, and 
     <span className="font-semibold text-blue-600"> maximum rewards</span> for the people 
@@ -47,7 +47,7 @@ const homepageSc2 = () => {
         className="w-[100%]    object-cover"
       /></div>   
             <div className=" flex flex-col items-center">
-  <h2 className="text-5xl font-bold text-gray-400 mb-4 text-center">
+  <h2 className="text-5xl font-bold text-gray-400 pt-8 mb-4 text-center">
     Our Mission
   </h2>
   <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
