@@ -28,12 +28,14 @@ export default function BoardSection() {
   return (
     <section className="py-16 px-6 bg-gray-100 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white">
-          Meet Our Board of Members
+        <h2 className="text-3xl  md:text-4xl font-bold text-gray-800 dark:text-white">
+        Advisory Board members
         </h2>
-        <p className="mt-3 text-gray-600 dark:text-gray-300">
+        
+        <p className="mt-3 pb-6 text-gray-600 dark:text-gray-300">
           Our leadership team brings years of experience to drive our mission forward.
         </p>
+        <hr className="w-[30%] mx-auto border-t-8 border-slate-300 rounded " />
       </div>
 
       <div className="mt-10 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">

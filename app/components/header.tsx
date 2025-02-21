@@ -5,7 +5,7 @@ import Nav from './Nav'
 
 const header = () => {
   return (
-    <div className='bg-black h-[22hv]'>
+    <div className='bg-black h-[13hv]'>
         <Nav />
         <Mobilenav />
       </div>  

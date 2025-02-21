@@ -13,13 +13,13 @@ const HomepageSec1 = () => {
     }
   };
   return (
-    <div className="flex flex-col w-full">
-  <div className="relative w-full h-[90vh] md:h-screen overflow-hidden">
+    <div className=" flex-col w-full">
+  <div className=" w-full  ">
     
     {/* Video Background */}
     <video
     ref={videoRef}
-      className="absolute top-0 left-0 w-full h-full md:object-cover sm:object-cover"
+      className=" top-0 left-0 w-full h-full md:object-cover sm:object-cover"
       autoPlay
       loop
       muted={isMuted}

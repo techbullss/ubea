@@ -43,10 +43,10 @@ const Homepagepricing = () => {
   ];
 
   return (
-    <div className="p-2 flex flex-col  bg-cover bg-center bg-no-repeat  bg-fixed"
+    <div className=" flex flex-col  bg-cover bg-center bg-no-repeat bg-slate-300 bg-fixed"
     >
     <h2 className="text-2xl font-bold text-black mb-4 text-center">
-      Benefits of UBEA Membership (included in Annual Membership)
+    UBEA Annual Membership Cost and Benefits
     </h2>
   
     {/* Flex container for table and image */}
@@ -79,18 +79,7 @@ const Homepagepricing = () => {
             ))}
   
             {/* Buttons Row */}
-            <tr className="bg-gray-100">
-              <td className="p-1 border font-medium text-center">Join Now</td>
-              {memberships.map((membership, index) => (
-                <td key={index} className="p-1 border text-center">
-                  <button
-                    className="px-2 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-md transition text-sm"
-                  >
-                    JOIN 
-                  </button>
-                </td>
-              ))}
-            </tr>
+            
           </tbody>
         </table>
       </div>
