@@ -32,7 +32,7 @@ const HomepageSec1 = () => {
     {/* Mute Button */}
     <button
       onClick={toggleMute}
-      className="absolute bottom-5 right-5 sm:right-[50%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
+      className="absolute bottom-5 right-20 sm:right-[50%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
     >
       {isMuted ? <VolumeX size={32} /> : <Volume2 size={32} />}
     </button>
