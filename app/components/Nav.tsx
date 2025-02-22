@@ -35,12 +35,15 @@ return ()=>{
   
   return (
     <div 
-    className={`fixed ${navBgs ? 'bg-black  shadow-md h-[12vh] pt-2 ' : 'fixed'} w-full bg-slate-950 mx-auto transition-all z-[1000] h-[13vh] pt-2`}>
-    <div className='flex w-[90%] mx-auto    justify-between'>
+    className={`fixed md:w-full bg-slate-950 transition-all z-[1000] 
+      ${navBgs ? 'bg-black shadow-md' : ''} 
+     md:h-[13vh] lg:h-[13vh] sm:h-[8vh] w-full pt-2`}
+  >
+    <div className='flex w-[90%] mx-auto sm  lg:justify-between  md:justify-between'>
       <div className='items-center'>
         <Image className='w-16' src={'/WhatsApp Image 2025-01-27 at 10.52.39.jpeg' } alt={'log image'} width={64} height={64}/>
         </div>
-        <div className='hidden lg:flex space-x-15text-sm text-gray-100 items-center gap-10'>
+        <div className='hidden lg:flex md:space-x-15 text-sm text-gray-100 items-center md: gap-10'>
             {nav_links.map((Links)=>{
                const isActive = hydrated && currentPath === Links.url;
                 return(

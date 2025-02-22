@@ -15,7 +15,7 @@ const StatsSection = () => {
     >
       <div className="absolute bg-black inset-0 bg-opacity-50"></div> {/* Overlay */}
       
-      <div className="relative max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div className="relative max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         
         {/* Applicants */}
         <div className="flex flex-col items-center">

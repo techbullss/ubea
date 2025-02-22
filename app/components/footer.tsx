@@ -63,13 +63,13 @@ export default function footer(){
       <h2 className="text-xl md:text-2xl font-bold mb-3">Subscribe to get updates</h2>
 
       {/* Subscription Input */}
-      <div className="flex items-center bg-white rounded-full p-1 max-w-sm w-full">
+      <div className="md:flex ms:flex ms:flex-col items-center bg-white rounded-full md:p-1 md:max-w-sm w-full">
         <input
           type="email"
           placeholder="Enter your email"
           className="flex-1 p-2 text-black rounded-l-full outline-none"
         />
-        <button className="bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold">
+        <button className="bg-yellow-400 text-black md:px-4 md:py-2 rounded-full font-semibold">
           Subscribe
         </button>
       </div>

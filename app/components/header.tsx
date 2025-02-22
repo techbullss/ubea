@@ -5,9 +5,9 @@ import Nav from './Nav'
 
 const header = () => {
   return (
-    <div className='bg-black h-[13hv]'>
+    <div>
         <Nav />
-        <Mobilenav />
+        
       </div>  
   )
 }
