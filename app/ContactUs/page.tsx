@@ -63,11 +63,13 @@ const ContactUs = () => {
       {/* Contact Section */}
       <div className="w-[90%] md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-10">
         {/* Left - Contact Details */}
-        <div className="flex flex-col gap-6">
-          <h2 className="text-3xl font-semibold text-gray-900 ">Get In Touch</h2>
+        <div className="flex flex-col gap-6 pt-14">
+        <h2 className="text-2xl font-semibold text-blue-900 ">Get In Touch</h2>
+
+          <h2 className="text-4xl font-semibold text-gray-900 ">Feel free to reach out to us for any inquiries or assistance.</h2>
           <hr className="w-[50%] justify-start  border-t-8 border-slate-700 rounded" />
           <p className="text-gray-600">
-            Feel free to reach out to us for any inquiries or assistance.
+            
           </p>
 
           {/* Contact Info */}
