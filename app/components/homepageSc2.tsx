@@ -10,7 +10,7 @@ const homepageSc2 = () => {
   style={{ backgroundImage: "url('bg4.jpeg')" }}
 >
 <div className="max-w-4xl mx-auto text-center pt-10">
-        <h1 className="text-4xl sm:text-5xl font-bold text-blue-900 mb-6">
+        <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
           Unlock Global Talent with UBEA
         </h1>
         <p className="text-lg sm:text-xl text-gray-700 mb-2">
@@ -22,20 +22,20 @@ const homepageSc2 = () => {
         </p>
         <a
           href="#contact" // Replace with your desired link
-          className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+          className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-black transition duration-300"
         >
           Get Started
         </a>
       </div>
             <div className=' w-[90%] mx-auto grid md:grid-cols-1 sm:grid-cols-1 pt-16'>
             <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 text-center mb-8">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8">
           Why Choose UBEA?
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Feature 1 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
                No Hidden Fees, Just Transparency
             </h3>
             <p className="text-gray-600">
@@ -44,7 +44,7 @@ const homepageSc2 = () => {
           </div>
           {/* Feature 2 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
                Access to Highly Qualified Educators
             </h3>
             <p className="text-gray-600">
@@ -53,7 +53,7 @@ const homepageSc2 = () => {
           </div>
           {/* Feature 3 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
                Seamless Hiring & Compliance
             </h3>
             <p className="text-gray-600">
@@ -62,7 +62,7 @@ const homepageSc2 = () => {
           </div>
           {/* Feature 4 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
                Comprehensive Relocation Support
             </h3>
             <p className="text-gray-600">
@@ -71,7 +71,7 @@ const homepageSc2 = () => {
           </div>
           {/* Feature 5 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
                Ongoing Professional & Cultural Development
             </h3>
             <p className="text-gray-600">
@@ -80,7 +80,7 @@ const homepageSc2 = () => {
           </div>
           {/* Feature 6 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
               Commitment to Teacher Success & Retention
             </h3>
             <p className="text-gray-600">
@@ -90,7 +90,7 @@ const homepageSc2 = () => {
         </div>
         {/* Bottom Section */}
         <div className="mt-12 text-center">
-          <h3 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-4">
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
             Affordable. Transparent. Effective.
           </h3>
           <p className="text-lg text-gray-600 mb-8">
@@ -116,7 +116,7 @@ const homepageSc2 = () => {
         className="w-[100%]    object-cover"
       /></div>   
        <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 mb-6">
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
           Our Mission
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 mb-8">
