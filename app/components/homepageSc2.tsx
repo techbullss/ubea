@@ -9,18 +9,30 @@ const homepageSc2 = () => {
   className="w-full mx-auto  flex flex-col text-gray-900  bg-cover bg-fixed bg-center bg-no-repeat"
   style={{ backgroundImage: "url('bg4.jpeg')" }}
 >
-  <div className='flex flex-col pt-8 pb-6'>
-    <p className='text-center sm:text-sm md:text-2xl'><p className='md:text-4xl text-sm text-slate-500 text-center'>Unlock Global Talent with UBEA</p> 
-     <p className='text-xl font-mono font-semibold pt-2'>Affordable & Transparent International Teacher Recruitment</p> 
-Are you a school, district, or J-1 visa sponsor seeking top-tier international educators without exorbitant recruitment fees? 
-UBEA is your trusted partner for teacher recruitment, relocation, and ongoing support—at a fraction of the cost.</p>
-  </div>
+<div className="max-w-4xl mx-auto text-center pt-10">
+        <h1 className="text-4xl sm:text-5xl font-bold text-blue-900 mb-6">
+          Unlock Global Talent with UBEA
+        </h1>
+        <p className="text-lg sm:text-xl text-gray-700 mb-2">
+          Affordable & Transparent International Teacher Recruitment
+        </p>
+        <hr className="w-[20%] mx-auto border-t-4 border-blue-950 rounded" />
+        <p className="text-base sm:text-lg text-gray-600 mb-8">
+          Are you a school, district, or J-1 visa sponsor seeking top-tier international educators without exorbitant recruitment fees? UBEA is your trusted partner for teacher recruitment, relocation, and ongoing support—at a fraction of the cost.
+        </p>
+        <a
+          href="#contact" // Replace with your desired link
+          className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+        >
+          Get Started
+        </a>
+      </div>
             <div className=' w-[90%] mx-auto grid md:grid-cols-2 sm:grid-cols-1 pt-16'>
             <div className="  flex flex-col items-center">
   <h2 className="md:text-4xl lg:text-4xl sm:text-sm font-bold text-gray-400 pb-6 text-center">
     Why Join UBEA?
   </h2>
-  <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
+  <hr className="w-[30%] text-start border-t-4 border-slate-700 rounded" />
   <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-600  pt-6 ">
     <span className="font-semibold text-grey-600">UBEA</span> is an organization revolutionizing 
     the way hiring works and eliminating unnecessary fees. 
