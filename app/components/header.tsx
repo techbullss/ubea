@@ -7,8 +7,7 @@ const header = () => {
   return (
     <div>
         <Nav />
-        
-      </div>  
+        </div>  
   )
 }
 
