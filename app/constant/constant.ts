@@ -16,7 +16,7 @@ export const nav_links =[
 },
 {
     id:4,
-    url:"/ContactuS",
+    url:"/ContactUs",
     label:"Contact Us"
 }
 
