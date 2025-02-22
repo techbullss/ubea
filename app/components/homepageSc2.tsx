@@ -9,6 +9,12 @@ const homepageSc2 = () => {
   className="w-full mx-auto  flex flex-col text-gray-900  bg-cover bg-fixed bg-center bg-no-repeat"
   style={{ backgroundImage: "url('bg4.jpeg')" }}
 >
+  <div className='flex flex-col pt-8 pb-6'>
+    <p className='text-center sm:text-sm md:text-2xl'><p className='md:text-4xl text-sm text-slate-500 text-center'>Unlock Global Talent with UBEA</p> 
+     <p className='text-xl font-mono font-semibold pt-2'>Affordable & Transparent International Teacher Recruitment</p> 
+Are you a school, district, or J-1 visa sponsor seeking top-tier international educators without exorbitant recruitment fees? 
+UBEA is your trusted partner for teacher recruitment, relocation, and ongoing support—at a fraction of the cost.</p>
+  </div>
             <div className=' w-[90%] mx-auto grid md:grid-cols-2 sm:grid-cols-1 pt-16'>
             <div className="  flex flex-col items-center">
   <h2 className="md:text-4xl lg:text-4xl sm:text-sm font-bold text-gray-400 pb-6 text-center">
