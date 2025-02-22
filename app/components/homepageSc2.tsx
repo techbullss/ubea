@@ -27,68 +27,106 @@ const homepageSc2 = () => {
           Get Started
         </a>
       </div>
-            <div className=' w-[90%] mx-auto grid md:grid-cols-2 sm:grid-cols-1 pt-16'>
-            <div className="  flex flex-col items-center">
-  <h2 className="md:text-4xl lg:text-4xl sm:text-sm font-bold text-gray-400 pb-6 text-center">
-    Why Join UBEA?
-  </h2>
-  <hr className="w-[30%] text-start border-t-4 border-slate-700 rounded" />
-  <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-600  pt-6 ">
-    <span className="font-semibold text-grey-600">UBEA</span> is an organization revolutionizing 
-    the way hiring works and eliminating unnecessary fees. 
-    <span className="font-semibold"> Authentic and present</span>, we are a community that grows together 
-    through a genuine desire for collective success—including yours.
-  </p>
-  <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-700  mt-4">
-    So, why join us? Because our focus is on 
-    <span className="font-semibold text-grey-600"> empowerment, liberation</span>, and 
-    <span className="font-semibold text-grey-600"> maximum rewards</span> for the people 
-    and organizations we serve.
-  </p>
-  
-</div>
+            <div className=' w-[90%] mx-auto grid md:grid-cols-1 sm:grid-cols-1 pt-16'>
+            <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 text-center mb-8">
+          Why Choose UBEA?
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Feature 1 */}
+          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+               No Hidden Fees, Just Transparency
+            </h3>
+            <p className="text-gray-600">
+              Unlike traditional agencies, UBEA offers a flat annual membership fee of just $499—no inflated placement fees, no surprises.
+            </p>
+          </div>
+          {/* Feature 2 */}
+          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+               Access to Highly Qualified Educators
+            </h3>
+            <p className="text-gray-600">
+              We connect you with rigorously vetted international teachers passionate about shaping young minds.
+            </p>
+          </div>
+          {/* Feature 3 */}
+          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+               Seamless Hiring & Compliance
+            </h3>
+            <p className="text-gray-600">
+              Our team ensures a smooth recruitment process, adhering to J-1 visa regulations and school requirements.
+            </p>
+          </div>
+          {/* Feature 4 */}
+          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+               Comprehensive Relocation Support
+            </h3>
+            <p className="text-gray-600">
+              We assist with arrival support, transportation, housing, and cultural integration for a hassle-free transition.
+            </p>
+          </div>
+          {/* Feature 5 */}
+          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+               Ongoing Professional & Cultural Development
+            </h3>
+            <p className="text-gray-600">
+              Members gain access to cultural training, instructional webinars, global networking, and a thriving educator community.
+            </p>
+          </div>
+          {/* Feature 6 */}
+          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h3 className="text-xl font-semibold text-blue-900 mb-4">
+              Commitment to Teacher Success & Retention
+            </h3>
+            <p className="text-gray-600">
+              Our team ensures teachers adapt, excel, and stay engaged in your schools.
+            </p>
+          </div>
+        </div>
+        {/* Bottom Section */}
+        <div className="mt-12 text-center">
+          <h3 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-4">
+            Affordable. Transparent. Effective.
+          </h3>
+          <p className="text-lg text-gray-600 mb-8">
+            Diverse, high-quality educators shouldn’t come at an unreasonable cost. With UBEA, you get top-tier talent, full-service support, and an engaged global community—all without hidden fees or excessive charges.
+          </p>
+          <a
+            href="#contact" // Replace with your desired link
+            className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-black transition duration-300"
+          >
+            Partner with UBEA Today
+          </a>
+        </div>
+      </div>
 
-<div className="flex items-start w-full mt-0">
-  <img
-    src="josh1.png"
-    alt="Image 2"
-    className=" object-cover"
-  />
-</div>
+
     
             </div>
             <div className=' w-[90%] mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 pt-0  gap-1 '>
-            <div className='pt-24'>
+            <div className=''>
              <img
         src="t77.png"
         alt="Image 2"
         className="w-[100%]    object-cover"
       /></div>   
-            <div className=" flex flex-col items-center">
-  <h2 className="md:text-5xl lg:text-5xl sm:text-sm font-bold text-gray-400 pt-8 mb-4 text-center">
-    Our Mission
-  </h2>
-  <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
-
-  <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-700 leading-relaxed pt-6 mb-6 ">
-    Our mission is to <span className="font-semibold">connect highly skilled individuals</span> 
-    with hiring organizations from around the globe to advance workforce development.
-    We <span className="font-semibold text-grey-600">train</span>, we <span className="font-semibold text-grey-600">support</span>, 
-    and we meet the needs of our network members by ensuring 
-    <span className="font-semibold"> seamless integration</span> and 
-    <span className="font-semibold"> cultural exchange</span> of international hires across diverse settings.
-    Our mission is driven by the promise to do this work with 
-    <span className="font-semibold text-grey-600"> transparency and care. </span>
-    So, <span className="font-semibold text-grey-600">let’s get started.</span> 
-    Not with just our solutions, but with <span className="font-semibold">your needs</span>.
-    No hidden charges, no exorbitant fees
-    We care about people.
-  </p>
-
-  
-
-  
-</div>
+       <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold text-blue-900 mb-6">
+          Our Mission
+        </h2>
+        <p className="text-lg sm:text-xl text-gray-700 mb-8">
+          Our mission is to connect highly skilled individuals with hiring organizations from around the globe to advance workforce development. We train, we support, and we meet the needs of our network members by ensuring seamless integration and cultural exchange of international hires across diverse settings.
+        </p>
+        <p className="text-lg sm:text-xl text-gray-700 mb-8">
+          Our mission is driven by the promise to do this work with transparency and care. So, let’s get started. Not with just our solutions, but with your needs. <span className="font-semibold text-blue-900">No hidden charges, no exorbitant fees.</span> We care about people.
+        </p>
+        
+      </div>
 
              
     
