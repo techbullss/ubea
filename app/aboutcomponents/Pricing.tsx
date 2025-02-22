@@ -2,7 +2,7 @@ export default function Pricing() {
     const membershipPlans = [
       {
         type: "Corporate/Business Members",
-        price: "$449/Annual",
+        price: "$1,599/Annual",
         benefits: ["Access to Members", "Job Boards", "E-Newsletters", "Virtual Community Events"],
       },
       {
@@ -29,7 +29,7 @@ export default function Pricing() {
       },
       {
         type: "Individual Memberships",
-        price: "$1,599/Annual",
+        price: "$499/Annual",
         benefits: [
           "Access to Members",
           "E-Newsletters",
