@@ -13,13 +13,13 @@ const HomepageSec1 = () => {
     }
   };
   return (
-    <div className=" flex-col w-full">
-  <div className=" w-full  ">
+    <div className="relative flex flex-col w-full ">
+  <div className="relative w-full">
     
     {/* Video Background */}
     <video
-    ref={videoRef}
-      className=" top-0 left-0 w-full h-full md:object-cover sm:object-cover"
+      ref={videoRef}
+      className="w-full h-full object-cover"
       autoPlay
       loop
       muted={isMuted}
@@ -28,16 +28,14 @@ const HomepageSec1 = () => {
       <source src="/students.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
+
+    {/* Mute Button */}
     <button
-        onClick={toggleMute}
-        className="absolute bottom-5 right-[50%] p-3 bg-black/50 text-white rounded-full"
-      >
-        {isMuted ? <VolumeX size={64} /> : <Volume2 size={64} />}
-      </button>
-
-    {/* Overlay Content */}
-    
-
+      onClick={toggleMute}
+      className="absolute bottom-5 right-5 sm:right-[50%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
+    >
+      {isMuted ? <VolumeX size={32} /> : <Volume2 size={32} />}
+    </button>
   </div>
 </div>
 

@@ -10,7 +10,7 @@ const StatsSection = () => {
   return (
     <div 
       ref={ref} 
-      className="relative text-white py-16 px-6 bg-cover bg-center h-[60vh]"
+      className="relative text-white py-16 px-6 bg-cover bg-center "
       style={{ backgroundImage: "url('uni3.png')" }} // Set background image
     >
       <div className="absolute bg-black inset-0 bg-opacity-50"></div> {/* Overlay */}
@@ -19,7 +19,7 @@ const StatsSection = () => {
         
         {/* Applicants */}
         <div className="flex flex-col items-center">
-          <Users size={50} className="mb-3 text-blue-300" /> {/* Big Icon */}
+          <Users size={150} className="mb-3 mt-20 text-blue-300" /> {/* Big Icon */}
           <h2 className="text-6xl font-bold">
             {inView && <CountUp start={0} end={15000} duration={2.5} separator="," />}+
           </h2>
@@ -28,7 +28,7 @@ const StatsSection = () => {
 
         {/* Years of Experience */}
         <div className="flex flex-col items-center">
-          <Briefcase size={50} className="mb-3 text-yellow-300" />
+          <Briefcase size={150} className="mb-3 mt-20 text-yellow-300" />
           <h2 className="text-6xl font-bold">
             {inView && <CountUp start={0} end={13} duration={2.5} />}+
           </h2>
@@ -37,7 +37,7 @@ const StatsSection = () => {
 
         {/* Industry Experts */}
         <div className="flex flex-col items-center">
-          <UserCheck size={50} className="mb-3 text-green-300" />
+          <UserCheck size={150} className="mb-3 mt-20 text-green-300" />
           <h2 className="text-6xl font-bold">
             {inView && <CountUp start={0} end={30} duration={2.5} />}+
           </h2>
@@ -46,7 +46,7 @@ const StatsSection = () => {
 
         {/* Countries */}
         <div className="flex flex-col items-center">
-          <Globe size={50} className="mb-3 text-red-300" />
+          <Globe size={150} className="mb-3 mt-20 text-red-300" />
           <h2 className="text-6xl font-bold">
             {inView && <CountUp start={0} end={20} duration={2.5} />}+
           </h2>

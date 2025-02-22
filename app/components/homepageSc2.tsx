@@ -6,22 +6,22 @@ import React from 'react'
 const homepageSc2 = () => {
   return (
     <div
-  className="w-full mx-auto flex flex-col text-gray-900 h-fit bg-cover bg-fixed bg-center bg-no-repeat"
+  className="w-full mx-auto  flex flex-col text-gray-900  bg-cover bg-fixed bg-center bg-no-repeat"
   style={{ backgroundImage: "url('bg4.jpeg')" }}
 >
-            <div className=' w-[90%] mx-auto grid grid-cols-2 pt-16'>
+            <div className=' w-[90%] mx-auto grid md:grid-cols-2 sm:grid-cols-1 pt-16'>
             <div className="  flex flex-col items-center">
-  <h2 className="text-5xl font-bold text-gray-400 pb-6 text-center">
+  <h2 className="md:text-4xl lg:text-4xl sm:text-sm font-bold text-gray-400 pb-6 text-center">
     Why Join UBEA?
   </h2>
   <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
-  <p className="text-2xl text-gray-600  pt-6 ">
+  <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-600  pt-6 ">
     <span className="font-semibold text-grey-600">UBEA</span> is an organization revolutionizing 
     the way hiring works and eliminating unnecessary fees. 
     <span className="font-semibold"> Authentic and present</span>, we are a community that grows together 
     through a genuine desire for collective success—including yours.
   </p>
-  <p className="text-2xl text-gray-700  mt-4">
+  <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-700  mt-4">
     So, why join us? Because our focus is on 
     <span className="font-semibold text-grey-600"> empowerment, liberation</span>, and 
     <span className="font-semibold text-grey-600"> maximum rewards</span> for the people 
@@ -39,7 +39,7 @@ const homepageSc2 = () => {
 </div>
     
             </div>
-            <div className=' w-[90%] mx-auto grid grid-cols-2 pt-0  gap-1 '>
+            <div className=' w-[90%] mx-auto grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 pt-0  gap-1 '>
             <div className='pt-24'>
              <img
         src="t77.png"
@@ -47,12 +47,12 @@ const homepageSc2 = () => {
         className="w-[100%]    object-cover"
       /></div>   
             <div className=" flex flex-col items-center">
-  <h2 className="text-5xl font-bold text-gray-400 pt-8 mb-4 text-center">
+  <h2 className="md:text-5xl lg:text-5xl sm:text-sm font-bold text-gray-400 pt-8 mb-4 text-center">
     Our Mission
   </h2>
   <hr className="w-[50%] mx-auto border-t-8 border-slate-700 rounded" />
 
-  <p className="text-2xl text-gray-700 leading-relaxed pt-6 mb-6 ">
+  <p className="md:text-2xl lg:text-2xl sm:text-sm text-gray-700 leading-relaxed pt-6 mb-6 ">
     Our mission is to <span className="font-semibold">connect highly skilled individuals</span> 
     with hiring organizations from around the globe to advance workforce development.
     We <span className="font-semibold text-grey-600">train</span>, we <span className="font-semibold text-grey-600">support</span>, 
