@@ -50,10 +50,10 @@ return ()=>{
             })}
             <div className='text-white items-center gap-5 flex'>
             <p className="text-sm flex items-center gap-2">
-  <FaPhone className="text-green-500" /> <span>0712xxxxxx</span>
+  <FaPhone className="text-gray-100 text-2xl" /> <span>+1 (336) 491-4041</span>
 </p>
 <p className="text-sm flex items-center gap-2">
-  <MdEmail className="text-blue-500" /> <span>info@ubea.co.ke</span>
+  <MdEmail className="text-gray-100 text-3xl" /> <span>info@ubeausa.com</span>
 </p>
         </div>
 

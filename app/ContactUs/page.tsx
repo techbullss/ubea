@@ -80,11 +80,11 @@ const ContactUs = () => {
             </div>
             <div className="flex items-center gap-3 text-gray-800">
               <FaPhoneAlt className="text-green-500 text-xl" />
-              <p>+166 xx 506 2745</p>
+              <p>+1 (336) 491-4041</p>
             </div>
             <div className="flex items-center gap-3 text-gray-800">
               <FaEnvelope className="text-blue-500 text-xl" />
-              <p>info@ubea.com</p>
+              <p>info@ubeausa.com</p>
             </div>
             <div className="mt-6 flex space-x-4">
             <a href="#" className="text-blue-600 text-2xl hover:text-blue-800"><FaFacebook /></a>

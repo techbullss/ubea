@@ -28,13 +28,13 @@ export default function footer(){
           {/* Phone */}
           <div className="flex items-center justify-center md:justify-start gap-3">
             <FaPhoneAlt className="text-yellow-400 text-lg md:text-xl" />
-            <p>+166 xx 506 2745</p>
+            <p>+1 (336) 491-4041</p>
           </div>
 
           {/* Email */}
           <div className="flex items-center justify-center md:justify-start gap-3">
             <FaEnvelope className="text-yellow-400 text-lg md:text-xl" />
-            <p>support@ubea.com</p>
+            <p>info@ubeausa.com</p>
           </div>
 
           {/* Address */}
