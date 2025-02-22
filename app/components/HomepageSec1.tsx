@@ -13,13 +13,13 @@ const HomepageSec1 = () => {
     }
   };
   return (
-    <div className="relative flex flex-col w-full ">
-  <div className="absolute w-full">
+    <div className=" relative flex flex-col w-full h-full ">
+  
     
     {/* Video Background */}
     <video
       ref={videoRef}
-      className="w-full h-fit top-0 object-cover"
+      className="w-full  object-cover"
       autoPlay
       loop
       muted={isMuted}
@@ -37,7 +37,7 @@ const HomepageSec1 = () => {
       {isMuted ? <VolumeX size={32} /> : <Volume2 size={32} />}
     </button>
   </div>
-</div>
+
 
   )
 }
