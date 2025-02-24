@@ -41,7 +41,7 @@ return ()=>{
   >
     <div className='flex w-[90%] mx-auto sm  lg:justify-between  md:justify-between'>
       <div className='items-center'>
-        <Image className='w-16' src={'/logo.png' } alt={'log image'} width={64} height={64}/>
+        <Image className='' src={'/logo.png' } alt={'log image'} width={74} height={74}/>
         </div>
         <div className='hidden lg:flex md:space-x-15 text-sm text-gray-100 items-center md: gap-10'>
             {nav_links.map((Links)=>{

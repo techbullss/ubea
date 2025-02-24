@@ -32,7 +32,7 @@ const Section3 = () => {
             </div>
             <div className='grid grid-cols-3 w-full gap-2'>
                 <div className=''>
-                <p className="text-4xl font-bold text-transparent bg-gradient-to-r from-sky-400 to-pink-500 bg-clip-text text-center">Connecting teachers</p>
+                <p className="text-4xl font-bold text-transparent bg-gradient-to-r from-sky-400 to-pink-500 bg-clip-text text-center">Connecting Employees</p>
                     
                 </div>
                 <div className=' '
