@@ -39,7 +39,7 @@ return ()=>{
       ${navBgs ? 'bg-black shadow-md md:h-[18vh] lg:h-[13vh] sm:h-[8vh]' : 'fixed'} 
      md:h-[18vh] lg:h-[13vh] sm:h-[8vh] w-full pt-2`}
   >
-    <div className='flex w-[90%] mx-auto sm  lg:justify-between  md:justify-between'>
+    <div className='flex w-[90%] mx-auto justify-between  lg:justify-between  md:justify-between'>
       <div className='items-center'>
         <Image className='' src={'/logo.png' } alt={'log image'} width={74} height={74}/>
         </div>
@@ -65,7 +65,7 @@ return ()=>{
         </div>
         
         <div className='flex items-center gap-3'>
-          <button className='bg-white rounded-full px-8  py-2.5 md:px-8 md:py-2.5'>login</button>
+          <button className='bg-white rounded-full text-black px-8  py-2.5 md:px-8 md:py-2.5'>login</button>
           <HiBars3BottomRight className=' w-8 cursor-pointer text-white h-8 lg:hidden ' onClick={() => setIsOpen(true)}/>
         </div>
     </div>
