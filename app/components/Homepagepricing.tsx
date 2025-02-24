@@ -2,9 +2,9 @@ import React from 'react'
 
 const Homepagepricing = () => {
   const memberships = [
-    { name: "Individual Memberships", price: "$449/Annual" },
+    { name: "Individual Memberships", price: "$499/Annual" },
     { name: "Hiring Organizations", price: "No Fee" },
-    { name: "J-1 Sponsors", price: " No Fee" },
+    { name: "Visa Sponsors", price: " No Fee" },
     { name: "Corporate/Business Members", price: "$1,599/Annual" },
   ];
 
@@ -12,33 +12,33 @@ const Homepagepricing = () => {
     "Access to Members",
     "Job Boards",
     "E-Newsletters",
-    "Virtual Community Events",
+    " Community Events",
     "Cultural Immersion Trainings/Webinars*",
     "Travel Information",
     "Education Trainings/Webinars**",
     "English Language Immersion Support",
     "Technology Training",
     "Visa & Tax Webinars",
-    "Relocation Information",
+    "Relocation Support",
     "Referral Services",
     "Discounted U.S. Culture Tours",
     "Discounted Rates to Regional and Annual Conferences",
   ];
 
   const benefitAccess = [
-    [true, false, true, true],
-    [false, false, true, true],
-    [true, false, true, false],
-    [false, true, false, false],
+    [false, true, true, true],
+    [true, false, false, false],
+    [true, true, true, true],
+    [true, true, true, true],
     [true, true, false, false],
     [true, false, false, false],
-    [false, true, false, false],
     [true, false, false, false],
     [true, false, false, false],
     [true, false, false, false],
     [true, false, false, false],
     [true, false, false, false],
-    [true, false, false, true],
+    [true, false, false, false],
+    [true, false, false, false],
     [true, true, true, true],
   ];
 

@@ -17,12 +17,12 @@ export default function Pricing() {
         ],
       },
       {
-        type: "J-1 Sponsors",
+        type: "Visa Sponsors",
         price: "No Fee",
         benefits: [
           "Access to Members",
           "E-Newsletters",
-          "Virtual Community Events",
+          " Community Events",
           "Cultural Immersion Trainings/Webinars",
           "Discounted Rates to Regional and Annual Conferences",
         ],
@@ -33,11 +33,11 @@ export default function Pricing() {
         benefits: [
           "Access to Members",
           "E-Newsletters",
-          "Virtual Community Events",
+          " Community Events",
           "Job Boards",
           "Technology Training",
           "Visa & Tax Webinars",
-          "Relocation Information",
+          "Relocation support",
           "Referral Services",
           "Discounted U.S. Culture Tours",
           "Discounted Rates to Regional and Annual Conferences",

@@ -34,9 +34,9 @@ return ()=>{
 
   
   return (
-    <div style={{ position: 'sticky', top: 0 }}
+    <div 
     className={`fixed md:w-full bg-slate-950 transition-all z-[1000] 
-      ${navBgs ? 'bg-black shadow-md' : ''} 
+      ${navBgs ? 'bg-black shadow-md md:h-[18vh] lg:h-[13vh] sm:h-[8vh]' : 'fixed'} 
      md:h-[18vh] lg:h-[13vh] sm:h-[8vh] w-full pt-2`}
   >
     <div className='flex w-[90%] mx-auto sm  lg:justify-between  md:justify-between'>
