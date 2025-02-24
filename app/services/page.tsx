@@ -4,14 +4,14 @@ export default function Services() {
     const services = [
       "Job Boards",
       "E-Newsletters",
-      "Virtual Community Events",
+      " Community Events",
       "Cultural Immersion Trainings or Webinars",
       "Travel Information",
       "Education Trainings or Webinars",
       "English Language Immersion Support",
       "Technology Training",
       "Visa & Tax Webinars",
-      "Relocation Information",
+      "Relocation Support",
       "Referral Services",
       "Discounted U.S. Culture Tours",
       "Discounted Rates to Regional and Annual Conferences"
