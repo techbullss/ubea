@@ -17,7 +17,7 @@ export default function footer(){
     <div className="flex flex-col items-center text-center md:text-left">
       {/* Logo */}
       <div>
-        <Image className="w-16 bg-black" src={'/WhatsApp Image 2025-01-27 at 10.52.39.jpeg'} alt={'logo'} width={64} height={64} />
+        <Image className="" src={'/logo.png'} alt={'logo'} width={100} height={100} />
       </div>
 
       {/* Contact Info */}
@@ -77,7 +77,7 @@ export default function footer(){
       {/* Decorative Image */}
       <div className="mt-6">
         <Image 
-          src="/WhatsApp Image 2025-01-27 at 10.52.39.jpeg" 
+          src="/logo.png" 
           alt="Subscribe"
           width={200}
           height={200}
