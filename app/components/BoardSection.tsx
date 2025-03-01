@@ -20,7 +20,7 @@ const members: Member[] = [
   {
     name: "Alex Lindsay",
     role: "Head Of Operations at 090 Media",
-    image: "/ubea1.jpg",
+    image: "/ubea4.jpg",
     social: [
       { platform: "twitter", url: "https://twitter.com/johndoe" },
       { platform: "linkedin", url: "https://www.linkedin.com/in/lindsayalex/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
@@ -94,7 +94,7 @@ export default function BoardSection() {
             <div className="p-4 text-center">
               <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
                 {member.name}
-                <hr className="border-4 w-[25%] rounded-md mx-auto border-gray-200"/>
+                <hr className="border-2 w-[25%] rounded-md mx-auto border-gray-200"/>
               </h3>
               <p className="text-gray-500 dark:text-gray-400">{member.role}</p>
               {member.message && (
