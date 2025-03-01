@@ -38,7 +38,7 @@ const Testimonials = () => {
     <div>
         <FaQuoteLeft className='w-14 h-14 opacity-10 absolute top-8'/>
     </div>
-    <div className='grid grid-cols-5 gap-6 items-start'>
+    <div className='grid grid-cols-1 md:grid md:grid-cols-5 md:gap-6 items-start'>
         <div className='col-span-3 order-2 lg:order-1'>
             <p className='mt-8 font-medium leading-[2.5rem]'>
             UBEA is a nonprofit organization leading a global recruitment rebellion. We are changing the way recruitment works by eliminating the need for costly intermediaries. Authentic and present
@@ -69,7 +69,7 @@ const Testimonials = () => {
     <div>
         <FaQuoteLeft className='w-14 h-14 opacity-10 absolute top-8'/>
     </div>
-    <div className='grid grid-cols-5 gap-6 items-start'>
+    <div className='grid grid-cols-1 md:grid md:grid-cols-5 md:gap-6'>
         <div className='col-span-3 order-2 lg:order-1'>
             <p className='mt-8 font-medium leading-[2.5rem]'>
             UBEA is a nonprofit organization leading a global recruitment rebellion. We are changing the way recruitment works by eliminating the need for costly intermediaries. Authentic and present
@@ -100,7 +100,7 @@ const Testimonials = () => {
     <div>
         <FaQuoteLeft className='w-14 h-14 opacity-10 absolute top-8'/>
     </div>
-    <div className='grid grid-cols-5 gap-6 items-start'>
+    <div className='grid grid-cols-1 md:grid md:grid-cols-5 md:gap-6'>
         <div className='col-span-3 order-2 lg:order-1'>
             <p className='mt-8 font-medium leading-[2.5rem]'>
             UBEA is a nonprofit organization leading a global recruitment rebellion. We are changing the way recruitment works by eliminating the need for costly intermediaries. Authentic and present
