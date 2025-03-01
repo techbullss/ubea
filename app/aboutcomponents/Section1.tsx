@@ -15,7 +15,7 @@ const Section1 = () => {
       }
     };
   return (
-    <div className=' w-full bg-cover  bg-[#fbf6fa]  text-gray-900'style={{ backgroundImage: "url('bg4.jpeg')" }}>
+    <div className=' w-full bg-cover bg-fixed  bg-[#fbf6fa]  text-gray-900'style={{ backgroundImage: "url('bg4.jpeg')" }}>
      <div className="relative h-64 md:h-72 z-10">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
@@ -47,11 +47,11 @@ We specialize in global talent acquisition, visa process management, and relocat
 At UBEA, we are committed to fostering collaboration, diversity, and innovation that fuel business success, wherever you are.</p>
                
             </div>
-            <div className='md:col-span-3 md:mt-28 h-full'>
+            <div className='md:col-span-3 md:mt-28 h-full rounded-lg'>
 
             <video
       ref={videoRef}
-      className="w-full  object-cover"
+      className="w-full rounded-2xl object-cover"
       autoPlay
       loop
       muted={isMuted}

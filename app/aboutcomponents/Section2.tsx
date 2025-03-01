@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Section2 = () => {
   return (
-    <div className="w-full min-h-screen flex items-center justify-center bg-gradient-to-r from-grey-100 to-blue-300 p-6">
-  <div className="max-w-6xl bg-white shadow-2xl rounded-2xl overflow-hidden p-10 space-y-12">
+    <div className="w-full min-h-screen bg-slate-950 flex items-center justify-center  p-6">
+  <div className="max-w-6xl  overflow-hidden p-10 space-y-12">
     
     {/* Our Mission Section */}
     <div className="flex flex-col md:flex-row items-center gap-10">
