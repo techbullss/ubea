@@ -138,11 +138,17 @@ const ContactUs = () => {
       ></textarea>
 
       {/* Google reCAPTCHA */}
-      <ReCAPTCHA className="w-[50%]"
+      <div className="flex justify-center">
+  <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
+    <div className="scale-75 sm:scale-90 md:scale-100 flex justify-center">
+      <ReCAPTCHA
         sitekey="YOUR_RECAPTCHA_SITE_KEY"
         onChange={handleCaptcha}
         ref={recaptchaRef}
       />
+    </div>
+  </div>
+</div>
 
       <button
         type="submit"
@@ -158,11 +164,11 @@ const ContactUs = () => {
       </div>
 
       {/* Google Map Section */}
-      <div className="w-full h-[80vh]">
+      <div className="w-full md:h-[80vh]">
         <iframe
-          className="w-full h-full"
+          className="w-full md:h-full"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3835521459887!2d-118.27769632428212!3d34.08531347314448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c73f48582111%3A0x8b94f168cb921e43!2s3184%20W%20Sunset%20Blvd%2C%20Los%20Angeles%2C%20CA%2090026%2C%20USA!5e0!3m2!1sen!2ske!4v1740217423349!5m2!1sen!2ske"
-          allowFullScreen={true}
+          allowFullScreen={false}
           loading="lazy"
         ></iframe>
       </div>
