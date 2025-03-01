@@ -65,7 +65,7 @@ return ()=>{
         </div>
         
         <div className='flex items-center gap-3'>
-          <button className='bg-white rounded-full text-black px-8  py-2.5 md:px-8 md:py-2.5'>login</button>
+          <button className='md:bg-white bg-black md:rounded-full md:text-black border-b-2  text-white  outline-none md:px-8 md:py-2.5'>login</button>
           <HiBars3BottomRight className=' w-8 cursor-pointer text-white h-8 lg:hidden ' onClick={() => setIsOpen(true)}/>
         </div>
     </div>
