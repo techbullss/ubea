@@ -138,7 +138,7 @@ const ContactUs = () => {
       ></textarea>
 
       {/* Google reCAPTCHA */}
-      <ReCAPTCHA
+      <ReCAPTCHA className="w-[50%]"
         sitekey="YOUR_RECAPTCHA_SITE_KEY"
         onChange={handleCaptcha}
         ref={recaptchaRef}
