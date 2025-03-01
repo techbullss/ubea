@@ -36,14 +36,14 @@ return ()=>{
   return (
     <div 
     className={`fixed md:w-full bg-slate-950 transition-all z-[1000] 
-      ${navBgs ? 'bg-black shadow-md md:h-[18vh] lg:h-[13vh] sm:h-[8vh]' : 'fixed'} 
-     md:h-[18vh] lg:h-[13vh] sm:h-[8vh] w-full pt-2`}
+      ${navBgs ? 'bg-black shadow-md md:h-[12.5vh] lg:h-[12.5vh] h-[8vh]' : 'fixed'} 
+     md:h-[12.5vh] lg:h-[12.5vh] h-[6vh] w-full pt-2`}
   >
     <div className='flex w-[90%] mx-auto justify-between  lg:justify-between  md:justify-between'>
       <div className='items-center'>
-        <Image className='' src={'/logo.png' } alt={'log image'} width={74} height={74}/>
+        <Image className='' src={'/logo.png' } alt={'log image'} width={64} height={64}/>
         </div>
-        <div className='hidden lg:flex md:space-x-15 text-sm text-gray-100 items-center md: gap-10'>
+        <div className='hidden lg:flex md:space-x-15  text-sm text-gray-100 items-center md: gap-10'>
             {nav_links.map((Links)=>{
                const isActive = hydrated && currentPath === Links.url;
                 return(
