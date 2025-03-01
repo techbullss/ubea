@@ -22,7 +22,7 @@ const Section1 = () => {
                 <Image src="/sx.jpg"   alt="About Us Background" layout="fill" objectFit="cover" className="object-cover"
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+                <div className="absolute inset-0 bg-white bg-opacity-60"></div>
               </div>
       
               {/* Heading Text */}
