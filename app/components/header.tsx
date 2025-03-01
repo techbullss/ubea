@@ -5,7 +5,7 @@ import Nav from './Nav'
 
 const header = () => {
   return (
-    <div className='h-[13hv]'>
+    <div className='md:h-[12hv] h-[6hv]'>
         <Nav />
         </div>  
   )
