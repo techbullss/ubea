@@ -16,13 +16,13 @@ const Section1 = () => {
     };
   return (
     <div className=' w-full bg-cover bg-fixed  bg-[#fbf6fa]  text-gray-900'style={{ backgroundImage: "url('bg4.jpeg')" }}>
-     <div className="relative h-64 md:h-72 z-10">
+     <div className="relative h-64 md:h-[50vh] ">
               {/* Background Image */}
-              <div className="absolute inset-0 z-0">
+              <div className="absolute inset-0 ">
                 <Image src="/sx.jpg"   alt="About Us Background" layout="fill" objectFit="cover" className="object-cover"
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-white bg-opacity-60"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-70"></div>
               </div>
       
               {/* Heading Text */}
