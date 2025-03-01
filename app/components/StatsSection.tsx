@@ -10,10 +10,10 @@ const StatsSection = () => {
   return (
     <div 
       ref={ref} 
-      className="relative text-white py-16 px-6 bg-cover bg-center "
+      className="relative text-white py-16 px-6 bg-cover bg-fixed bg-center "
       style={{ backgroundImage: "url('uni3.png')" }} // Set background image
     >
-      <div className="absolute bg-black inset-0 bg-opacity-50"></div> {/* Overlay */}
+      <div className="absolute bg-black inset-0 bg-opacity-75"></div> {/* Overlay */}
       
       <div className="relative max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
         
