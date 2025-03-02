@@ -55,7 +55,7 @@ return ()=>{
             })}
             <div className='text-white items-center gap-5 flex'>
             <p className="text-sm flex items-center gap-2">
-  <FaPhone className="text-gray-100 text-2xl" /> <span>+1 (336) 491-4041</span>
+  <FaPhone className="text-gray-100 text-2xl" /> <span>+1 (443) 653-8482</span>
 </p>
 <p className="text-sm flex items-center gap-2">
   <MdEmail className="text-gray-100 text-3xl" /> <span>info@ubeausa.com</span>
@@ -105,7 +105,7 @@ return ()=>{
         </nav>
         <div className='text-black items-center gap-5 flex flex-col'>
             <p className="text-sm flex items-center gap-2">
-  <FaPhone className="text-black text-2xl" /> <span>+1 (336) 491-4041</span>
+  <FaPhone className="text-black text-2xl" /> <span>+1 (443) 653-8482</span>
 </p>
 <p className="text-sm flex items-center gap-2">
   <MdEmail className="text-black text-3xl" /> <span>info@ubeausa.com</span>

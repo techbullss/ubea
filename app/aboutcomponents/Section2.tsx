@@ -33,7 +33,7 @@ const Section2 = () => {
     <div className="flex flex-col-reverse md:flex-row items-center gap-10">
       <div className="flex-1 flex justify-center">
         <Image 
-          src={'/tt1.png'} 
+          src={'/josh1.png'} 
           alt={'Vision Image'} 
           width={500} 
           height={500} 

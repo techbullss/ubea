@@ -38,7 +38,7 @@ const Section1 = () => {
             <div className='md:pt-8 flex flex-col col-span-2 items-center '>
                 <h1 className='pb-4 text-center text-4xl font-bold'>About Us?</h1>
                 <hr className='border-4 w-[60%] border-gray-400 rounded-full'/>
-               <p className='pt-4 text-lg pb-8 font-serif text-gray-700'>Founded in 2011 and based in the Washington, DC area, UBEA is a global consulting firm dedicated to empowering organizations across diverse industries by connecting them with top-tier international talent.
+               <p className='pt-4 text-[16px] pb-8 font-serif text-gray-700'>Founded in 2011 and based in the Washington, DC area, UBEA is a global consulting firm dedicated to empowering organizations across diverse industries by connecting them with top-tier international talent.
 
 With over 14 years of experience, we have successfully recruited talent from over 25 countries, bringing a wealth of diverse expertise to organizations worldwide. Our presence in 4 key countries enables us to bridge talent gaps and offer customized solutions tailored to each organization unique needs.
 
@@ -47,17 +47,17 @@ We specialize in global talent acquisition, visa process management, and relocat
 At UBEA, we are committed to fostering collaboration, diversity, and innovation that fuel business success, wherever you are.</p>
                
             </div>
-            <div className='md:col-span-3 md:mt-28 h-full rounded-lg'>
+            <div className='md:col-span-3 md:mt-20 h-full rounded-lg'>
 
             <video
       ref={videoRef}
-      className="w-full rounded-2xl object-cover"
+      className="w-full rounded-2xl  border-t-[14px] border-y-[20px] border-gray-900 border-x-4 object-cover"
       autoPlay
       loop
       muted={isMuted}
       playsInline
     >
-      <source src="/video.mp4" type="video/mp4" />
+      <source src="/videoubea.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <button
