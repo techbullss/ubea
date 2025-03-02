@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Section2 = () => {
   return (
-    <div className="w-full min-h-screen bg-slate-950 flex items-center justify-center  p-6">
+    <div className="w-full min-h-screen bg-slate-950  bg-cover bg-fixed flex items-center justify-center  p-6" style={{ backgroundImage: "url('globe.jpeg')" }}>
   <div className="max-w-6xl  overflow-hidden p-10 space-y-12">
     
     {/* Our Mission Section */}
@@ -20,11 +20,11 @@ const Section2 = () => {
       </div>
       <div className="flex-1 flex justify-center">
         <Image 
-          src={'/mission.jpg'} 
+          src={'/mss.png'} 
           alt={'Mission Image'} 
           width={500} 
           height={500} 
-          className="rounded-lg shadow-lg"
+          
         />
       </div>
     </div>
@@ -37,7 +37,7 @@ const Section2 = () => {
           alt={'Vision Image'} 
           width={500} 
           height={500} 
-          className="rounded-lg shadow-lg"
+          
         />
       </div>
       <div className="flex-1 text-center md:text-left">
