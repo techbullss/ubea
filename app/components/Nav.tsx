@@ -37,7 +37,7 @@ return ()=>{
     <div 
     className={`fixed md:w-full bg-slate-950 transition-all z-[1000] 
       ${navBgs ? 'bg-black shadow-md md:h-[12.5vh] lg:h-[12.5vh] h-[8vh]' : 'fixed'} 
-     md:h-[12.5vh] lg:h-[12.5vh] h-[8vh] w-full `}
+     md:h-[12.5vh] lg:h-[12.5vh] h-[7.5vh] w-full `}
   >
     <div className='flex w-[90%] mx-auto justify-between  lg:justify-between  md:justify-between'>
       <div className='items-center'>

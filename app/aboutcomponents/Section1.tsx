@@ -47,7 +47,7 @@ We specialize in global talent acquisition, visa process management, and relocat
 At UBEA, we are committed to fostering collaboration, diversity, and innovation that fuel business success, wherever you are.</p>
                
             </div>
-            <div className='md:col-span-3 md:mt-20 h-full rounded-lg'>
+            <div className=' relative    md:col-span-3 md:mt-20 h-full rounded-lg'>
 
             <video
       ref={videoRef}
@@ -62,7 +62,7 @@ At UBEA, we are committed to fostering collaboration, diversity, and innovation 
     </video>
     <button
       onClick={toggleMute}
-      className="absolute bottom-5 right-20 sm:right-[50%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
+      className="absolute bottom-36 right-10 sm:right-[20%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
     >
       {isMuted ? <VolumeX size={32} /> : <Volume2 size={32} />}
     </button>
