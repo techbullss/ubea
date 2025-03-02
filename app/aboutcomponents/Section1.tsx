@@ -51,13 +51,13 @@ At UBEA, we are committed to fostering collaboration, diversity, and innovation 
 
             <video
       ref={videoRef}
-      className="w-full rounded-2xl  border-t-[14px] border-y-[20px] border-gray-900 border-x-4 object-cover"
+      className="w-full rounded-2xl mb-4 border-t-[14px] border-y-[20px] border-gray-900 border-x-4 object-cover"
       autoPlay
       loop
       muted={isMuted}
       playsInline
     >
-      <source src="/videoubea.mp4" type="video/mp4" />
+      <source src="/videoubea1.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <button
