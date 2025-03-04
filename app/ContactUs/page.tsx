@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef } from "react";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import ReCAPTCHA from "react-google-recaptcha";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const ContactUs = () => {
     const [formData, setFormData] = useState({
         name: "",
@@ -80,7 +80,7 @@ const ContactUs = () => {
             </div>
             <div className="flex items-center gap-3 text-gray-800">
               <FaPhoneAlt className="text-green-500 text-xl" />
-              <p>+1 (336) 491-4041</p>
+              <p>+1 (443) 653-8482</p>
             </div>
             <div className="flex items-center gap-3 text-gray-800">
               <FaEnvelope className="text-blue-500 text-xl" />
@@ -141,8 +141,8 @@ const ContactUs = () => {
       <div className="flex justify-center">
   <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
     <div className="scale-75 sm:scale-90 md:scale-100 flex justify-center">
-      <ReCAPTCHA
-        sitekey="6LfsWekqAAAAAGX0Ms_354UUOBke2gTnebFyA0GG"
+    <ReCAPTCHA
+        sitekey="6LfsWekqAAAAAH0RG8qZfIONi64gVDUhoC2KpdrW"
         onChange={handleCaptcha}
         ref={recaptchaRef}
       />
