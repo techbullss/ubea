@@ -28,7 +28,7 @@ export default function footer(){
           {/* Phone */}
           <div className="flex items-center justify-center md:justify-start gap-3">
             <FaPhoneAlt className="text-black text-lg md:text-xl" />
-            <p className='text-black'>+1 (336) 491-4041</p>
+            <p className='text-black'>+1 (443) 653-8482</p>
           </div>
 
           {/* Email */}

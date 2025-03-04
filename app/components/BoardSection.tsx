@@ -40,13 +40,13 @@ const members: Member[] = [
     ],
   },
   {
-    name: "Alice Johnson",
-    role: "Marketing Director",
-    image: "/member2.jpg",
-    message: "Crafting compelling stories to connect with our audience.",
+    name: "Cera Doering, Ed.D.",
+    role: "Director - Recruitment & Partnerships at Baltimore City Public Schools",
+    image: "/ceo.jpg",
+    
     social: [
       { platform: "twitter", url: "https://twitter.com/johndoe" },
-      { platform: "linkedin", url: "https://linkedin.com/in/johndoe" },
+      { platform: "linkedin", url: "https://www.linkedin.com/in/cera-doering-ed-d-5308952/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
       { platform: "facebook", url: "https://facebook.com/bertrand" },
       { platform: "instagram", url: "https://instagram.com/alicejohnson" },
     ],
