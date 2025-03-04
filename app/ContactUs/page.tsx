@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const ContactUs = () => {
+  
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -142,7 +143,7 @@ const ContactUs = () => {
   <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
     <div className="scale-75 sm:scale-90 md:scale-100 flex justify-center">
     <ReCAPTCHA
-        sitekey="6LfsWekqAAAAAH0RG8qZfIONi64gVDUhoC2KpdrW"
+        sitekey="6LdRdOkqAAAAAKq4-JSx3nLfGetg7EfPDfCBFahH"
         onChange={handleCaptcha}
         ref={recaptchaRef}
       />
