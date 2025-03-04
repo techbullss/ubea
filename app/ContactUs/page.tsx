@@ -76,7 +76,7 @@ const ContactUs = () => {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3 text-gray-800">
               <FaMapMarkerAlt className="text-red-500 text-xl" />
-              <p>3184 West Sunset Blvd, Silver Lake, Los Angeles, CA 90026</p>
+              <p> 4919 Harford Rd. , Baltimore, Maryland 21214</p>
             </div>
             <div className="flex items-center gap-3 text-gray-800">
               <FaPhoneAlt className="text-green-500 text-xl" />
@@ -142,7 +142,7 @@ const ContactUs = () => {
   <div className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
     <div className="scale-75 sm:scale-90 md:scale-100 flex justify-center">
       <ReCAPTCHA
-        sitekey="YOUR_RECAPTCHA_SITE_KEY"
+        sitekey="6LfsWekqAAAAAGX0Ms_354UUOBke2gTnebFyA0GG"
         onChange={handleCaptcha}
         ref={recaptchaRef}
       />

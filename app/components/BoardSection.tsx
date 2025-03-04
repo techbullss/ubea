@@ -42,7 +42,7 @@ const members: Member[] = [
   {
     name: "Cera Doering, Ed.D.",
     role: "Director - Recruitment & Partnerships at Baltimore City Public Schools",
-    image: "/ceo.jpg",
+    image: "/ceo1.jpeg",
     
     social: [
       { platform: "twitter", url: "https://twitter.com/johndoe" },

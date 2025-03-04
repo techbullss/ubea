@@ -41,7 +41,7 @@ export default function footer(){
           <div className="flex items-center justify-center md:justify-start gap-3">
             <FaMapMarkerAlt className="text-black text-lg md:text-xl" />
             <p className="leading-tight text-black">
-              3184 West Sunset Blvd, Silver Lake, Los Angeles, CA 90026
+            4919 Harford Rd. , Baltimore, Maryland 21214
             </p>
           </div>
         </div>
