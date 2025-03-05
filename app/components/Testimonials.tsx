@@ -41,9 +41,9 @@ const Testimonials = () => {
     <div className='grid grid-cols-1 md:grid md:grid-cols-5 md:gap-6 items-start'>
         <div className='col-span-3 order-2 lg:order-1'>
             <p className='mt-8 font-medium leading-[2.5rem]'>
-            "Transparent & Affordable—Finally!"
-            "Unlike traditional agencies that charge exorbitant fees, UBEA offers an affordable and straightforward membership model. The value we receive—from job boards to visa guidance and relocation support—is incredible.
-             I’ve recommended UBEA to several colleagues, and they’ve had the same positive experience!"
+            Transparent & Affordable—Finally! <br />
+            Unlike traditional agencies that charge exorbitant fees, UBEA offers an affordable and straightforward membership model. The value we receive—from job boards to visa guidance and relocation support—is incredible.
+             I’ve recommended UBEA to several colleagues, and they’ve had the same positive experience!
             </p>
             <div className='flex items-center mt-6'>
                 <FaStar className='w-6 h-6 text-y text-yellow-600'/>
@@ -73,9 +73,9 @@ const Testimonials = () => {
     <div className='grid grid-cols-1 md:grid md:grid-cols-5 md:gap-6'>
         <div className='col-span-3 order-2 lg:order-1'>
             <p className='mt-8 font-medium leading-[2.5rem]'>
-            "A Game-Changer for Schools!"
-            "We were struggling with teacher shortages until we partnered with UBEA. Not only did they provide access to highly qualified educators, but their ongoing training and cultural integration support made a real difference.
-             Our new hires feel engaged and supported, which has improved retention rates significantly."
+            A Game-Changer for Schools!<br></br>
+            We were struggling with teacher shortages until we partnered with UBEA. Not only did they provide access to highly qualified educators, but their ongoing training and cultural integration support made a real difference.
+             Our new hires feel engaged and supported, which has improved retention rates significantly.
             </p>
             <div className='flex items-center mt-6'>
                 <FaStar className='w-6 h-6 text-y text-yellow-600'/>
@@ -105,9 +105,9 @@ const Testimonials = () => {
     <div className='grid grid-cols-1 md:grid md:grid-cols-5 md:gap-6'>
         <div className='col-span-3 order-2 lg:order-1'>
             <p className='mt-8 font-medium leading-[2.5rem]'>
-            "Seamless Hiring & Support!"
-            "UBEA has completely transformed our hiring process. The transparency in pricing and the quality of candidates are unmatched. Their relocation support ensured a smooth transition for our new hires, making it easier for them to adapt and thrive in our district. 
-            We highly recommend UBEA to any organization looking for top-tier international talent!"
+            Seamless Hiring & Support! <br></br>
+            UBEA has completely transformed our hiring process. The transparency in pricing and the quality of candidates are unmatched. Their relocation support ensured a smooth transition for our new hires, making it easier for them to adapt and thrive in our district. 
+            We highly recommend UBEA to any organization looking for top-tier international talent
             </p>
             <div className='flex items-center mt-6'>
                 <FaStar className='w-6 h-6 text-y text-yellow-600'/>
