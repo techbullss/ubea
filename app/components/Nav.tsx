@@ -43,7 +43,7 @@ return ()=>{
       <div className='items-center'>
         <Image className='w-[40px] h-[40px] md:w-[64px] md:h-[64px]' src={'/logo.png' } alt={'log image'} width={64} height={64}/>
         </div>
-        <div className='hidden lg:flex md:space-x-15  text-sm text-gray-100 items-center md: gap-10'>
+        <div className='hidden lg:flex md:space-x-15  text-sm md:text-[18px] text-gray-100 items-center md: gap-10'>
             {nav_links.map((Links)=>{
                const isActive = hydrated && currentPath === Links.url;
                 return(

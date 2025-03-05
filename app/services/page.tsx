@@ -14,7 +14,7 @@ export default function Services() {
       "Relocation Support",
       "Referral Services",
       "Discounted U.S. Culture Tours",
-      "Discounted Rates to Regional and Annual Conferences"
+      " Regional and Annual Conferences"
     ];
   
     return (
