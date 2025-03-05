@@ -77,7 +77,7 @@ const ContactUs = () => {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3 text-gray-800">
               <FaMapMarkerAlt className="text-red-500 text-xl" />
-              <p> 4919 Harford Rd. , Baltimore, Maryland 21214</p>
+              <p> 4917 Harford Rd. , Baltimore, Maryland 21214</p>
             </div>
             <div className="flex items-center gap-3 text-gray-800">
               <FaPhoneAlt className="text-green-500 text-xl" />

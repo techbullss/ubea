@@ -14,11 +14,11 @@ const homepageSc2 = () => {
           Unlock Global Talent with UBEA
         </h1>
         <p className="text-lg sm:text-xl text-gray-700 mb-2">
-          Affordable & Transparent International  Recruitment
+          Affordable & Transparent International  Connections
         </p>
         <hr className="w-[20%] mx-auto border-t-4 border-blue-950 rounded" />
         <p className="text-base sm:text-lg text-gray-600 mb-8">
-          Are you a school, district, or  visa sponsor seeking top-tier international educators without exorbitant recruitment fees? UBEA is your trusted partner for  Employees recruitment, relocation, and ongoing support—at a fraction of the cost.
+          Are you a school, district, or  visa sponsor seeking top-tier international workforce without exorbitant recruitment fees? UBEA is your trusted partner for  Employees placement, relocation, and ongoing support—at a fraction of the cost.
         </p>
         <a
           href="#contact" // Replace with your desired link
@@ -45,10 +45,10 @@ const homepageSc2 = () => {
           {/* Feature 2 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-               Access to Highly Qualified Educators
+               Access to Highly Qualified Workforce
             </h3>
             <p className="text-gray-600">
-              We connect you with rigorously vetted international  Employees passionate about shaping young minds.
+              We connect you with rigorously vetted international  Workforce passionate about shaping young minds.
             </p>
           </div>
           {/* Feature 3 */}
@@ -57,7 +57,7 @@ const homepageSc2 = () => {
                Seamless Hiring & Compliance
             </h3>
             <p className="text-gray-600">
-              Our team ensures a smooth recruitment process, adhering to  visa regulations and  requirements.
+              Our team ensures a smooth placement process, adhering to  visa regulations and  requirements.
             </p>
           </div>
           {/* Feature 4 */}
@@ -94,7 +94,7 @@ const homepageSc2 = () => {
             Affordable. Transparent. Effective.
           </h3>
           <p className="text-lg text-gray-600 mb-8">
-            Diverse, high-quality educators shouldn’t come at an unreasonable cost. With UBEA, you get top-tier talent, full-service support, and an engaged global community—all without hidden fees or excessive charges.
+           A diverse, high-quality educators shouldn’t come at an unreasonable cost. With UBEA, you get top-tier talent, full-service support, and an engaged global community—all without hidden fees or excessive charges.
           </p>
           <a
             href="#contact" // Replace with your desired link

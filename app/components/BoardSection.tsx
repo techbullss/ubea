@@ -65,7 +65,7 @@ export default function BoardSection() {
     <section className="py-16 px-6 bg-gray-100 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white">
-          Advisory Board members
+          Advisory Board Members
         </h2>
         <p className="mt-3 pb-6 text-gray-600 dark:text-gray-300">
           Our leadership team brings years of experience to drive our mission forward.
