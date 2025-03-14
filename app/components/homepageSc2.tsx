@@ -11,54 +11,48 @@ const homepageSc2 = () => {
 >
 <div className="max-w-4xl mx-auto text-center pt-10">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-          Unlock Global Talent with UBEA
+        Streamline Your International Workforce Relocation
         </h1>
         <p className="text-lg sm:text-xl text-gray-700 mb-2">
-          Affordable & Transparent International  Connections
+        Expanding your team with global talent?
         </p>
         <hr className="w-[20%] mx-auto border-t-4 border-blue-950 rounded" />
         <p className="text-base sm:text-lg text-gray-600 mb-8">
-          Are you a school, district, or  visa sponsor seeking top-tier international workforce without exorbitant recruitment fees? UBEA is your trusted partner for  Employees placement, relocation, and ongoing support—at a fraction of the cost.
+        We make international worker relocation simple, affordable, and hassle-free! For the cost of an individual membership, we handle the logistics so your employees can focus on what matters most—seamlessly transitioning into their new roles.
         </p>
         <a
           href="#contact" // Replace with your desired link
           className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-black transition duration-300"
         >
-          Get Started
-        </a>
+Contact us today to get started!        </a>
       </div>
             <div className=' w-[90%] mx-auto grid md:grid-cols-1 sm:grid-cols-1 pt-16'>
             <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8">
           Why Choose UBEA?
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {/* Feature 1 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-               No Hidden Fees, Just Transparency
-            </h3>
+            Employer & Sponsor Friendly            </h3>
             <p className="text-gray-600">
-              Unlike traditional agencies, UBEA offers a flat annual membership fee of just $499—no inflated placement fees, no surprises.
-            </p>
-          </div>
+            Designed to ease the burden on organizations and sponsors</p>          </div>
           {/* Feature 2 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-               Access to Highly Qualified Workforce
+            Affordable & Efficient
             </h3>
             <p className="text-gray-600">
-              We connect you with rigorously vetted international  Workforce passionate about shaping young minds.
-            </p>
+            A complete relocation support package at a fraction of the cost.            </p>
           </div>
           {/* Feature 3 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
-               Seamless Hiring & Compliance
+            Cultural Training and Supports
             </h3>
             <p className="text-gray-600">
-              Our team ensures a smooth placement process, adhering to  visa regulations and  requirements.
-            </p>
+            Pre-arrival cultural training, post-arrival cross-cultural orientation, community integration, and networking opportunities            </p>
           </div>
           {/* Feature 4 */}
           <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
@@ -70,23 +64,9 @@ const homepageSc2 = () => {
             </p>
           </div>
           {/* Feature 5 */}
-          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-               Ongoing Professional & Cultural Development
-            </h3>
-            <p className="text-gray-600">
-              Members gain access to cultural training, instructional webinars, global networking, and a thriving educator community.
-            </p>
-          </div>
+         
           {/* Feature 6 */}
-          <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              Commitment to  Employee Success & Retention
-            </h3>
-            <p className="text-gray-600">
-              Our team ensures  Employees adapt, excel, and stay engaged in your schools.
-            </p>
-          </div>
+          
         </div>
         {/* Bottom Section */}
         <div className="mt-12 text-center">
@@ -94,8 +74,7 @@ const homepageSc2 = () => {
             Affordable. Transparent. Effective.
           </h3>
           <p className="text-lg text-gray-600 mb-8">
-           A diverse, high-quality educators shouldn’t come at an unreasonable cost. With UBEA, you get top-tier talent, full-service support, and an engaged global community—all without hidden fees or excessive charges.
-          </p>
+          Our goal is to ensure that all international workers are settled quickly and comfortably in their new environments. Partner with us to ensure smooth, cost-effective transitions for your international workforce. Let’s move forward—together!          </p>
           <a
             href="#contact" // Replace with your desired link
             className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-black transition duration-300"

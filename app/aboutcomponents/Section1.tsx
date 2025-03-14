@@ -38,16 +38,11 @@ const Section1 = () => {
             <div className='md:pt-8 flex flex-col col-span-2 items-center '>
                 <h1 className='pb-4 text-center text-4xl font-bold'>About Us?</h1>
                 <hr className='border-4 w-[60%] border-gray-400 rounded-full'/>
-               <p className='pt-4 text-[16px] pb-8 font-serif text-gray-700'>Founded in 2011 and based in the Washington, DC area, UBEA is a global consulting firm dedicated to empowering organizations across diverse industries by connecting them with top-tier international talent.
+               <p className='pt-4 text-[16px] pb-8 font-serif text-gray-700'>UBEA is a global networking firm dedicated to empowering organizations across diverse industries by connecting them with top-tier international talent. It was created with one goal in mind – level the playing field by reducing the need for third party agencies and the exorbitant charges to individuals and organizations. With over 20 years of experience, we understand the needs of organizations and the international workforce, bringing a wealth of diverse expertise to organizations worldwide. Our presence in key countries enables us to bridge talent gaps and offer customized solutions tailored to each organization’s unique needs. We specialize in relocation support and service management tailored to help organizations build diverse, high-performing teams that drive long-term success. Through strategic partnerships and our global network, we provide the support to talent needed for organizations and their workforces to thrive in today’s interconnected world. At UBEA, we are committed to fostering collaboration, diversity, and innovation that fuel business success, wherever you are.
 
-With over 14 years of experience, we have successfully recruited talent from over 25 countries, bringing a wealth of diverse expertise to organizations worldwide. Our presence in 4 key countries enables us to bridge talent gaps and offer customized solutions tailored to each organization unique needs.
-
-We specialize in global talent acquisition, visa process management, and relocation management. Our tailored solutions help businesses build diverse, high-performing teams that drive long-term success. Through strategic partnerships and our global network, we provide the talent needed for organizations to thrive in today interconnected world.
-
-At UBEA, we are committed to fostering collaboration, diversity, and innovation that fuel business success, wherever you are.</p>
-               
+Our goal is to ensure that international workers are settled quickly and comfortably in their new environments. We provide logistical support, cultural training, cross-cultural orientation and community integration all to help make the transition as smooth and prompt as possible for global workers and organizations alike. Most importantly, we care about the individuals we serve.</p>
             </div>
-            <div className=' relative    md:col-span-3 md:mt-20 h-full rounded-lg'>
+            <div className=' relative    md:col-span-3 md:mt-44 h-full rounded-lg'>
 
             <video
       ref={videoRef}
@@ -62,7 +57,7 @@ At UBEA, we are committed to fostering collaboration, diversity, and innovation 
     </video>
     <button
       onClick={toggleMute}
-      className="absolute bottom-36 right-10 sm:right-[20%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
+      className="absolute bottom-80 right-10 sm:right-[20%] translate-x-1/2 p-3 bg-black/50 text-white rounded-full"
     >
       {isMuted ? <VolumeX size={32} /> : <Volume2 size={32} />}
     </button>
