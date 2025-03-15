@@ -36,7 +36,7 @@ const Section1 = () => {
             </div>
         <div className='md:grid md:grid-cols-5 grid grid-cols-1 w-[90%] mx-auto md:gap-12'>
             <div className='md:pt-8 flex flex-col col-span-2 items-center '>
-                <h1 className='pb-4 text-center text-4xl font-bold'>About Us?</h1>
+                <h1 className='pb-4 text-center text-4xl font-bold'>About Us</h1>
                 <hr className='border-4 w-[60%] border-gray-400 rounded-full'/>
                <p className='pt-4 text-[16px] pb-8 font-serif text-gray-700'>UBEA is a global networking firm dedicated to empowering organizations across diverse industries by connecting them with top-tier international talent. It was created with one goal in mind – level the playing field by reducing the need for third party agencies and the exorbitant charges to individuals and organizations. With over 20 years of experience, we understand the needs of organizations and the international workforce, bringing a wealth of diverse expertise to organizations worldwide. Our presence in key countries enables us to bridge talent gaps and offer customized solutions tailored to each organization’s unique needs. We specialize in relocation support and service management tailored to help organizations build diverse, high-performing teams that drive long-term success. Through strategic partnerships and our global network, we provide the support to talent needed for organizations and their workforces to thrive in today’s interconnected world. At UBEA, we are committed to fostering collaboration, diversity, and innovation that fuel business success, wherever you are.
 
