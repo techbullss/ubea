@@ -34,22 +34,22 @@ const ContactUs = () => {
           return;
         }
     
-        try {
-          const response = await fetch("https://formsubmit.co/info@ubeausa.com", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encodeFormData(formData),
-          });
-        
-          if (response.ok) {
-            alert("Message sent successfully!");
-            setFormData({ name: "", email: "", phone: "", message: "" });
-          } else {
-            alert("Failed to send message. Try again.");
-          }
-        } catch (error) {
-          console.error("Error sending email:", error);
-        }
+       try {
+  const response = await fetch("https://formsubmit.co/5157c3d4a222ed52626fd821f34251c5", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encodeFormData(formData),
+  });
+
+  if (response.ok) {
+    alert("Message sent successfully!");
+    setFormData({ name: "", email: "", phone: "", message: "" });
+  } else {
+    alert("Failed to send message. Try again.");
+  }
+} catch (error) {
+  console.error("Error sending email:", error);
+}
       };
   return (
     <div className="flex flex-col items-center w-full">
