@@ -101,7 +101,7 @@ const ContactUs = () => {
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">
             Send Us a Message
           </h2>
-          <form onSubmit={handleSubmit} action={"https://formsubmit.co/ebeeb46e6758a8f52c833bb976a9ee5f"} method="POST"  className="flex flex-col gap-4 bg-white p-6 ">
+          <form onSubmit={handleSubmit} action={"https://formsubmit.co/info@ubeausa.com"} method="POST"  className="flex flex-col gap-4 bg-white p-6 ">
       <input
         type="text"
         name="name"
