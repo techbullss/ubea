@@ -35,15 +35,21 @@ const ContactUs = () => {
         }
     
        try {
+        const formDataWithCaptcha = {
+          ...formData,
+          _captcha: "false", // Disable reCAPTCHA on FormSubmit
+        };
   const response = await fetch("https://formsubmit.co/5157c3d4a222ed52626fd821f34251c5", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: encodeFormData(formData),
+    body: encodeFormData(formDataWithCaptcha),
   });
 
   if (response.ok) {
     alert("Message sent successfully!");
     setFormData({ name: "", email: "", phone: "", message: "" });
+    recaptchaRef.current?.reset();
+      setCaptchaVerified(false);
   } else {
     alert("Failed to send message. Try again.");
   }
