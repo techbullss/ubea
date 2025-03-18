@@ -30,7 +30,24 @@ const ContactUs = () => {
           return;
         }
     
-      
+        try {
+          const response = await fetch("https://formspree.io/f/xblglqlr", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(formData),
+          });
+    
+          if (response.ok) {
+            alert("Message sent successfully!");
+            setFormData({ name: "", email: "", phone: "", message: "" });
+            recaptchaRef.current?.reset();
+            setCaptchaVerified(false);
+          } else {
+            alert("Failed to send message. Try again.");
+          }
+        } catch (error) {
+          console.error("Error sending email:", error);
+        }
       };
   return (
     <div className="flex flex-col items-center w-full">
@@ -84,7 +101,7 @@ const ContactUs = () => {
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">
             Send Us a Message
           </h2>
-          <form onSubmit={handleSubmit} action={"https://formsubmit.co/ebeeb46e6758a8f52c833bb976a9ee5f"} method="POST"  className="flex flex-col gap-4 bg-white p-6 ">
+          <form  action={"https://formsubmit.co/ebeeb46e6758a8f52c833bb976a9ee5f"} method="POST"  className="flex flex-col gap-4 bg-white p-6 ">
       <input
         type="text"
         name="name"
