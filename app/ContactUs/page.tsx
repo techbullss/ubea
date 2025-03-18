@@ -3,7 +3,11 @@ import { useState, useRef } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 const ContactUs = () => {
-  
+  const encodeFormData = (data: { [x: string]: string | number | boolean; }) => {
+    return Object.keys(data)
+      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+  };
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -31,17 +35,15 @@ const ContactUs = () => {
         }
     
         try {
-          const response = await fetch("https://formspree.io/f/xblglqlr", {
+          const response = await fetch("https://formsubmit.co/info@ubeausa.com", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(formData),
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encodeFormData(formData),
           });
-    
+        
           if (response.ok) {
             alert("Message sent successfully!");
             setFormData({ name: "", email: "", phone: "", message: "" });
-            recaptchaRef.current?.reset();
-            setCaptchaVerified(false);
           } else {
             alert("Failed to send message. Try again.");
           }
