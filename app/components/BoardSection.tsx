@@ -41,7 +41,7 @@ const members: Member[] = [
   },
   {
     name: "Cera Doering, Ed.D.",
-    role: "Executive Director, Founder United Borders",
+    role: "Executive Director, Founder UBEA",
     image: "/usa.jpeg",
     
     social: [
