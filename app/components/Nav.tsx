@@ -65,7 +65,12 @@ return ()=>{
         </div>
         
         <div className='flex items-center gap-3'>
-          <button className='md:bg-white bg-black md:rounded-full md:text-black border-b-2  text-white  outline-none md:px-8 md:py-2.5'>login</button>
+        <button
+  className="md:bg-white bg-black md:rounded-full md:text-black border-b-2 text-white outline-none md:px-8 md:py-2.5"
+  onClick={() => window.location.href = 'https://portal.ubeausa.com/login'}
+>
+  Login
+</button>
           <HiBars3BottomRight className=' w-8 cursor-pointer text-white h-8 lg:hidden ' onClick={() => setIsOpen(true)}/>
         </div>
     </div>
@@ -84,12 +89,14 @@ return ()=>{
       >
         {/* Close Button */}
         <button
-          className="absolute top-4 right-4 text-gray-800"
-          onClick={() => setIsOpen(false)}
-        >
-          <X size={28} />
-        </button>
-
+  className="absolute top-4 right-4 text-gray-800"
+  onClick={() => {
+    setIsOpen(false);
+    window.location.href = 'https://portal.ubeausa.com/login';
+  }}
+>
+  <X size={28} />
+</button>
         {/* Sidebar Content */}
         <nav className="flex flex-col gap-6 p-6 text-gray-800">
           {nav_links.map((Links) => (
