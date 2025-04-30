@@ -98,7 +98,7 @@ return ()=>{
   className="absolute top-4 right-4 text-gray-800"
   onClick={() => {
     setIsOpen(false);
-    window.location.href = 'https://portal.ubeausa.com/login';
+    
   }}
 >
   <X size={28} />
