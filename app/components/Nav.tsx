@@ -71,6 +71,12 @@ return ()=>{
 >
   Login
 </button>
+<button
+  className="md:bg-white bg-black md:rounded-full md:text-black border-b-2 text-white outline-none md:px-8 md:py-2.5"
+  onClick={() => window.location.href = 'https://portal.ubeausa.com/register'}
+>
+  Register
+</button>
           <HiBars3BottomRight className=' w-8 cursor-pointer text-white h-8 lg:hidden ' onClick={() => setIsOpen(true)}/>
         </div>
     </div>

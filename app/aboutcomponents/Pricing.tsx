@@ -1,3 +1,4 @@
+'use client'
 export default function Pricing() {
     const membershipPlans = [
       {
@@ -66,7 +67,7 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-full transition duration-300">
+                <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-full transition duration-300" onClick={() => window.location.href = 'https://portal.ubeausa.com/register'}>
                   Join Now
                 </button>
               </div>
